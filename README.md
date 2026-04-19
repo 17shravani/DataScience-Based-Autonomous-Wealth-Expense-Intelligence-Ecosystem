@@ -1,35 +1,52 @@
+# DataScience-Based Autonomous Wealth & Expense Intelligence Ecosystem
 
-# DataScience-Based-Autonomous-Wealth-Expense-Intelligence-Ecosystem
-# AuraFi: Autonomous Wealth & Expense Intelligence Ecosystem
-
-AuraFi is an elite, industry-grade FinTech startup platform that transcends traditional "expense tracking." Instead of merely logging past expenses, AuraFi acts as a **Financial Digital Twin**, using a Multi-Agent AI system to autonomously monitor real-time transaction streams, predict cash-flow bottlenecks, detect subscription anomalies, and provide prescriptive financial actions. 
-
+A **two-tier** expense intelligence project — a Basic Expense Tracker satisfying the core Data Science problem statement, plus **AuraFi V2**, an industry-grade AI extension.
 
 ---
 
-## 1. Multi-Agent AI Architecture 🤖
+## 📁 Project Structure
 
-The core of AuraFi relies on 5 interacting algorithmic agents (Multi-Agent System):
-
-1. **Aura-Watch (Monitoring Agent):** Listens to live data streams. Detects anomalies in real-time (e.g., "Duplicate $59.99 charge detected from Adobe").
-2. **Aura-Brain (Decision Agent):** Analyzes historical spending and predicts future bottlenecks. Uses time-series cash-flow forecasting.
-3. **Aura-Action (Automation Agent):** Acts on insights. Automatically drafts emails to cancel unused subscriptions, or triggers "Auto-Sweep" moving excess funds to savings based on predictive cash flow.
-4. **Aura-Voice (Communication Agent):** An NLP Chatbot Copilot. (User: "How much did I spend on food this weekend vs last?" -> Copilot queries DB and visualizes it immediately).
-5. **Aura-Evolve (Learning Agent):** An active learning module. If the user corrects a miscategorized transaction, this agent retrains the categorization model over time.
-
----
-
-## 2. Advanced / Real-Time Capabilities ⚡
-
-- **Real-Time Streaming Dashboard:** A simulated banking webhook pushes transactions to a backend, instantly updating the UI dynamically without refreshing.
-- **Financial Digital Twin (Simulation):** A predictive sandbox where users can see exactly how a new recurring expense (e.g., getting a new car loan) will alter their wealth trajectory over 5 years.
-- **Shrinkflation & Subscription Creep Detector:** AI tracks identical or similar vendors over months. If a subscription quietly raises its price by $2, the system flags "Subscription Creep".
+```
+├── basic_tracker.py           # ✅ Core problem statement implementation
+├── app.py                     # 🚀 AuraFi V2 — Advanced AI Extension
+├── ai_agents.py               # Multi-Agent AI system (AuraFi)
+├── data_generator.py          # Synthetic data + live transaction simulator
+├── historical_transactions.csv # Pre-generated dataset (12 months)
+├── aura_watch_model.pkl       # Trained Isolation Forest anomaly model
+├── requirements.txt
+├── BLUEPRINT.md               # AuraFi architectural blueprint
+└── README.md
+```
 
 ---
 
+## ✅ Part 1: Basic Expense Tracker (`basic_tracker.py`)
 
+> **Directly addresses the problem statement requirements.**
 
-## 4. System Architecture (Text Based Diagram) 🏗️
+### Features
+| Requirement | Implementation |
+|---|---|
+| Input expense data | CSV upload, manual form entry, or sample data |
+| Clean & analyze using Pandas | Full cleaning, type inference, null handling |
+| Charts using Matplotlib/Seaborn | Bar, Pie, Line, Stacked Bar, Histogram, Heatmap |
+| Category-wise spending | Horizontal bar + pie charts per category |
+| Monthly trends | Line chart + stacked category-month breakdown |
+| Insights | Auto-generated text insights + anomaly flags |
+| Streamlit dashboard | Full responsive dashboard with sidebar filters |
+
+### Run
+```bash
+streamlit run basic_tracker.py
+```
+
+---
+
+## 🚀 Part 2: AuraFi V2 — Advanced AI Extension (`app.py`)
+
+> **An autonomous, multi-agent FinTech intelligence platform — far beyond the basic problem statement.**
+
+### Architecture
 
 ```
 [ Synthetic Data Webhook ] --> { FastAPI Ingestion Engine }
@@ -41,13 +58,51 @@ The core of AuraFi relies on 5 interacting algorithmic agents (Multi-Agent Syste
                 [ Anomaly Detection AI ]   [ Time-Series Forecaster AI ]
                               \                   /
                                v                 v
-                       [ Next-Gen Interactive Dashboard UI ]
+                       [ AuraFi V2 Dashboard (Streamlit) ]
+```
+
+### Multi-Agent System
+| Agent | Role |
+|---|---|
+| **Aura-Watch** | Isolation Forest anomaly detection on live transactions |
+| **Aura-Brain** | Time-series cash-flow forecasting (end-of-month projection) |
+| **Aura-Action** | Prescriptive actions: auto-sweep, debt-freeze recommendations |
+| **Aura-Wellness** | Financial health score (0–100) + debt-trap prevention |
+| **Aura-Green** | Carbon footprint tracker mapped to transaction categories |
+
+### Advanced Features
+- 🔴 **Real-Time Streaming Dashboard** — simulated webhook injects live transactions
+- 📈 **Cash-Flow Forecasting** — predicts end-of-month spend from historical patterns
+- 🌍 **Green Ledger** — CO₂ footprint analysis per spending category
+- 🧠 **Debt-Trap AI** — financial wellness gauge with prescriptive autonomous actions
+- 💚 **Charity Roundup** — auto-rounds transactions and tracks micro-donations
+
+### Run
+```bash
+streamlit run app.py
 ```
 
 ---
 
-## 5. Extra Best Add-On Feature Ideas (Bonus) 💡
+## ⚡ Quick Start
 
-1. **Peer-Benchmarking (Anonymous Data Pools):** "You spend 15% more on groceries than users with a similar income profile."
-2. **Carbon-Cost Predictor:** Uses NLP to map your shopping and fuel expenses to predict your real-time carbon footprint, alongside cash flow.
-3. **Sentiment-Based Financial Diary:** Logs not just what you spent, but requests your "mood" after big impulsive purchases to correlate emotional state with spending spikes over time.
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Generate historical data (if CSV is missing)
+python data_generator.py
+
+# 3. Run the Basic Tracker
+streamlit run basic_tracker.py
+
+# 4. Run AuraFi V2 (Advanced)
+streamlit run app.py
+```
+
+---
+
+## 🛠️ Tech Stack
+
+**Basic Tracker:** Pandas · Matplotlib · Seaborn · Streamlit  
+**AuraFi V2:** + Plotly · Scikit-learn · NumPy · Joblib
