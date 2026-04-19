@@ -1,0 +1,586 @@
+id,date,category,description,amount,type,carbon_score,charity_roundup,payment_method,month,month_dt,week,year,quarter,day_of_week,is_weekend,spending_tier
+1,2025-04-24 17:02:32.140532,Transport,Vendor_Transportation_2,26.28,Expense,131.4,0.72,Unknown,2025-04,2025-04-01,17,2025,Q2,Thursday,False,Low
+2,2025-04-26 04:14:32.140532,Groceries,Vendor_Groceries_2,65.67,Expense,78.8,0.33,Unknown,2025-04,2025-04-01,17,2025,Q2,Saturday,True,Low
+3,2025-04-26 23:55:32.140532,Transport,Vendor_Transportation_2,26.19,Expense,130.95,0.81,Unknown,2025-04,2025-04-01,17,2025,Q2,Saturday,True,Low
+4,2025-04-27 06:53:32.140532,Transport,Vendor_Transportation_3,21.04,Expense,105.2,0.96,Unknown,2025-04,2025-04-01,17,2025,Q2,Sunday,True,Low
+6,2025-04-28 17:21:32.140532,Entertainment,Vendor_Entertainment_2,81.51,Expense,24.45,0.49,Unknown,2025-04,2025-04-01,18,2025,Q2,Monday,False,Low
+5,2025-04-28 19:59:32.140532,Transport,Vendor_Transportation_5,33.75,Expense,168.75,0.25,Unknown,2025-04,2025-04-01,18,2025,Q2,Monday,False,Low
+7,2025-04-30 05:01:32.140532,Transport,Vendor_Transportation_1,22.49,Expense,112.45,0.51,Unknown,2025-04,2025-04-01,18,2025,Q2,Wednesday,False,Low
+8,2025-05-01 02:32:32.140532,Food & Dining,Vendor_Dining_3,84.2,Expense,126.3,0.8,Unknown,2025-05,2025-05-01,18,2025,Q2,Thursday,False,Low
+11,2025-05-01 08:53:32.140532,Subscriptions,Adobe,54.99,Expense,5.5,0.01,Unknown,2025-05,2025-05-01,18,2025,Q2,Thursday,False,Low
+10,2025-05-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2025-05,2025-05-01,18,2025,Q2,Thursday,False,Low
+13,2025-05-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-05,2025-05-01,18,2025,Q2,Thursday,False,Medium
+12,2025-05-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2025-05,2025-05-01,18,2025,Q2,Thursday,False,Low
+14,2025-05-01 19:24:32.140532,Groceries,Vendor_Groceries_1,72.66,Expense,87.19,0.34,Unknown,2025-05,2025-05-01,18,2025,Q2,Thursday,False,Low
+15,2025-05-02 02:42:32.140532,Groceries,Vendor_Groceries_5,126.59,Expense,151.91,0.41,Unknown,2025-05,2025-05-01,18,2025,Q2,Friday,False,Low
+16,2025-05-02 19:22:32.140532,Groceries,Vendor_Groceries_1,122.72,Expense,147.26,0.28,Unknown,2025-05,2025-05-01,18,2025,Q2,Friday,False,Low
+18,2025-05-02 19:33:32.140532,Entertainment,Vendor_Entertainment_2,49.73,Expense,14.92,0.27,Unknown,2025-05,2025-05-01,18,2025,Q2,Friday,False,Low
+17,2025-05-02 22:59:32.140532,Entertainment,Vendor_Entertainment_2,195.2,Expense,58.56,0.8,Unknown,2025-05,2025-05-01,18,2025,Q2,Friday,False,Low
+19,2025-05-03 20:39:32.140532,Groceries,Vendor_Groceries_4,114.15,Expense,136.98,0.85,Unknown,2025-05,2025-05-01,18,2025,Q2,Saturday,True,Low
+22,2025-05-06 22:16:32.140532,Transport,Vendor_Transportation_2,60.61,Expense,303.05,0.39,Unknown,2025-05,2025-05-01,19,2025,Q2,Tuesday,False,Low
+20,2025-05-07 00:36:32.140532,Food & Dining,Vendor_Dining_5,69.38,Expense,104.07,0.62,Unknown,2025-05,2025-05-01,19,2025,Q2,Wednesday,False,Low
+21,2025-05-07 07:39:32.140532,Groceries,Vendor_Groceries_1,132.1,Expense,158.52,0.9,Unknown,2025-05,2025-05-01,19,2025,Q2,Wednesday,False,Low
+23,2025-05-08 05:26:32.140532,Transport,Vendor_Transportation_2,46.06,Expense,230.3,0.94,Unknown,2025-05,2025-05-01,19,2025,Q2,Thursday,False,Low
+25,2025-05-08 17:50:32.140532,Food & Dining,Vendor_Dining_4,66.93,Expense,100.4,0.07,Unknown,2025-05,2025-05-01,19,2025,Q2,Thursday,False,Low
+24,2025-05-09 05:42:32.140532,Groceries,Vendor_Groceries_2,77.25,Expense,92.7,0.75,Unknown,2025-05,2025-05-01,19,2025,Q2,Friday,False,Low
+26,2025-05-09 23:16:32.140532,Groceries,Vendor_Groceries_3,120.79,Expense,144.95,0.21,Unknown,2025-05,2025-05-01,19,2025,Q2,Friday,False,Low
+28,2025-05-10 03:50:32.140532,Groceries,Vendor_Groceries_3,117.04,Expense,140.45,0.96,Unknown,2025-05,2025-05-01,19,2025,Q2,Saturday,True,Low
+27,2025-05-10 04:05:32.140532,Groceries,Vendor_Groceries_4,99.64,Expense,119.57,0.36,Unknown,2025-05,2025-05-01,19,2025,Q2,Saturday,True,Low
+30,2025-05-11 18:03:32.140532,Groceries,Vendor_Groceries_3,63.58,Expense,76.3,0.42,Unknown,2025-05,2025-05-01,19,2025,Q2,Sunday,True,Low
+29,2025-05-12 03:05:32.140532,Entertainment,Vendor_Entertainment_4,118.3,Expense,35.49,0.7,Unknown,2025-05,2025-05-01,20,2025,Q2,Monday,False,Low
+32,2025-05-12 22:58:32.140532,Food & Dining,Vendor_Dining_3,78.32,Expense,117.48,0.68,Unknown,2025-05,2025-05-01,20,2025,Q2,Monday,False,Low
+31,2025-05-12 23:51:32.140532,Shopping,Vendor_Shopping_5,213.21,Expense,426.42,0.79,Unknown,2025-05,2025-05-01,20,2025,Q2,Monday,False,Low
+33,2025-05-14 05:42:32.140532,Food & Dining,Vendor_Dining_5,56.35,Expense,84.53,0.65,Unknown,2025-05,2025-05-01,20,2025,Q2,Wednesday,False,Low
+34,2025-05-14 23:08:32.140532,Food & Dining,Vendor_Dining_5,53.89,Expense,80.84,0.11,Unknown,2025-05,2025-05-01,20,2025,Q2,Wednesday,False,Low
+36,2025-05-15 22:51:32.140532,Food & Dining,Vendor_Dining_2,43.56,Expense,65.34,0.44,Unknown,2025-05,2025-05-01,20,2025,Q2,Thursday,False,Low
+35,2025-05-16 06:28:32.140532,Utilities,Vendor_Utilities_5,256.83,Expense,642.07,0.17,Unknown,2025-05,2025-05-01,20,2025,Q2,Friday,False,Low
+37,2025-05-16 07:41:32.140532,Shopping,Vendor_Shopping_3,179.34,Expense,358.68,0.66,Unknown,2025-05,2025-05-01,20,2025,Q2,Friday,False,Low
+39,2025-05-18 02:46:32.140532,Transport,Vendor_Transportation_1,39.53,Expense,197.65,0.47,Unknown,2025-05,2025-05-01,20,2025,Q2,Sunday,True,Low
+38,2025-05-18 05:49:32.140532,Groceries,Vendor_Groceries_3,143.57,Expense,172.28,0.43,Unknown,2025-05,2025-05-01,20,2025,Q2,Sunday,True,Low
+40,2025-05-19 21:14:32.140532,Groceries,Vendor_Groceries_4,76.6,Expense,91.92,0.4,Unknown,2025-05,2025-05-01,21,2025,Q2,Monday,False,Low
+42,2025-05-20 04:00:32.140532,Groceries,Vendor_Groceries_5,137.28,Expense,164.74,0.72,Unknown,2025-05,2025-05-01,21,2025,Q2,Tuesday,False,Low
+41,2025-05-20 06:42:32.140532,Food & Dining,Vendor_Dining_1,56.07,Expense,84.11,0.93,Unknown,2025-05,2025-05-01,21,2025,Q2,Tuesday,False,Low
+43,2025-05-22 00:03:32.140532,Food & Dining,Vendor_Dining_4,94.7,Expense,142.05,0.3,Unknown,2025-05,2025-05-01,21,2025,Q2,Thursday,False,Low
+45,2025-05-22 01:39:32.140532,Utilities,Vendor_Utilities_5,153.49,Expense,383.73,0.51,Unknown,2025-05,2025-05-01,21,2025,Q2,Thursday,False,Low
+44,2025-05-22 06:41:32.140532,Healthcare,Vendor_Healthcare_1,228.21,Expense,22.82,0.79,Unknown,2025-05,2025-05-01,21,2025,Q2,Thursday,False,Low
+46,2025-05-22 23:49:32.140532,Groceries,Vendor_Groceries_1,105.03,Expense,126.04,0.97,Unknown,2025-05,2025-05-01,21,2025,Q2,Thursday,False,Low
+47,2025-05-24 02:36:32.140532,Groceries,Vendor_Groceries_4,89.09,Expense,106.91,0.91,Unknown,2025-05,2025-05-01,21,2025,Q2,Saturday,True,Low
+50,2025-05-24 23:54:32.140532,Entertainment,Vendor_Entertainment_3,81.4,Expense,24.42,0.6,Unknown,2025-05,2025-05-01,21,2025,Q2,Saturday,True,Low
+49,2025-05-25 06:05:32.140532,Groceries,Vendor_Groceries_2,143.16,Expense,171.79,0.84,Unknown,2025-05,2025-05-01,21,2025,Q2,Sunday,True,Low
+48,2025-05-25 07:14:32.140532,Entertainment,Vendor_Entertainment_2,27.1,Expense,8.13,0.9,Unknown,2025-05,2025-05-01,21,2025,Q2,Sunday,True,Low
+51,2025-05-25 18:33:32.140532,Entertainment,Vendor_Entertainment_1,149.7,Expense,44.91,0.3,Unknown,2025-05,2025-05-01,21,2025,Q2,Sunday,True,Low
+52,2025-05-26 05:11:32.140532,Food & Dining,Vendor_Dining_5,97.11,Expense,145.66,0.89,Unknown,2025-05,2025-05-01,22,2025,Q2,Monday,False,Low
+53,2025-05-27 07:16:32.140532,Transport,Vendor_Transportation_2,27.48,Expense,137.4,0.52,Unknown,2025-05,2025-05-01,22,2025,Q2,Tuesday,False,Low
+54,2025-05-28 17:25:32.140532,Food & Dining,Vendor_Dining_5,86.38,Expense,129.57,0.62,Unknown,2025-05,2025-05-01,22,2025,Q2,Wednesday,False,Low
+55,2025-05-28 18:25:32.140532,Groceries,Vendor_Groceries_3,83.06,Expense,99.67,0.94,Unknown,2025-05,2025-05-01,22,2025,Q2,Wednesday,False,Low
+56,2025-05-29 20:43:32.140532,Transport,Vendor_Transportation_3,41.15,Expense,205.75,0.85,Unknown,2025-05,2025-05-01,22,2025,Q2,Thursday,False,Low
+57,2025-05-29 23:39:32.140532,Groceries,Vendor_Groceries_2,50.71,Expense,60.85,0.29,Unknown,2025-05,2025-05-01,22,2025,Q2,Thursday,False,Low
+59,2025-05-31 01:56:32.140532,Food & Dining,Vendor_Dining_5,88.79,Expense,133.19,0.21,Unknown,2025-05,2025-05-01,22,2025,Q2,Saturday,True,Low
+58,2025-05-31 04:44:32.140532,Shopping,Vendor_Shopping_3,161.45,Expense,322.9,0.55,Unknown,2025-05,2025-05-01,22,2025,Q2,Saturday,True,Low
+60,2025-06-01 00:14:32.140532,Groceries,Vendor_Groceries_5,89.55,Expense,107.46,0.45,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Low
+61,2025-06-01 07:47:32.140532,Food & Dining,Vendor_Dining_3,37.21,Expense,55.81,0.79,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Low
+66,2025-06-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Medium
+65,2025-06-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Low
+63,2025-06-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Low
+64,2025-06-01 08:53:32.140532,Subscriptions,Adobe,56.99,Expense,5.7,0.01,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Low
+68,2025-06-01 17:38:32.140532,Food & Dining,Vendor_Dining_4,32.04,Expense,48.06,0.96,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Low
+67,2025-06-01 20:55:32.140532,Transport,Vendor_Transportation_5,34.59,Expense,172.95,0.41,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Low
+69,2025-06-01 21:18:32.140532,Groceries,Vendor_Groceries_2,75.21,Expense,90.25,0.79,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Low
+71,2025-06-03 02:11:32.140532,Groceries,Vendor_Groceries_3,128.14,Expense,153.77,0.86,Unknown,2025-06,2025-06-01,23,2025,Q2,Tuesday,False,Low
+70,2025-06-03 02:48:32.140532,Healthcare,Vendor_Healthcare_2,474.74,Expense,47.47,0.26,Unknown,2025-06,2025-06-01,23,2025,Q2,Tuesday,False,Low
+72,2025-06-03 07:01:32.140532,Healthcare,Vendor_Healthcare_3,369.22,Expense,36.92,0.78,Unknown,2025-06,2025-06-01,23,2025,Q2,Tuesday,False,Low
+74,2025-06-03 18:06:32.140532,Transport,Vendor_Transportation_3,53.02,Expense,265.1,0.98,Unknown,2025-06,2025-06-01,23,2025,Q2,Tuesday,False,Low
+73,2025-06-03 22:28:32.140532,Food & Dining,Vendor_Dining_2,65.16,Expense,97.74,0.84,Unknown,2025-06,2025-06-01,23,2025,Q2,Tuesday,False,Low
+75,2025-06-04 16:56:32.140532,Food & Dining,Vendor_Dining_3,76.03,Expense,114.05,0.97,Unknown,2025-06,2025-06-01,23,2025,Q2,Wednesday,False,Low
+76,2025-06-05 07:11:32.140532,Healthcare,Vendor_Healthcare_3,212.79,Expense,21.28,0.21,Unknown,2025-06,2025-06-01,23,2025,Q2,Thursday,False,Low
+77,2025-06-06 19:31:32.140532,Transport,Vendor_Transportation_1,20.2,Expense,101.0,0.8,Unknown,2025-06,2025-06-01,23,2025,Q2,Friday,False,Low
+78,2025-06-07 03:48:32.140532,Healthcare,Vendor_Healthcare_5,345.97,Expense,34.6,0.03,Unknown,2025-06,2025-06-01,23,2025,Q2,Saturday,True,Low
+79,2025-06-07 07:04:32.140532,Groceries,Vendor_Groceries_2,100.99,Expense,121.19,0.01,Unknown,2025-06,2025-06-01,23,2025,Q2,Saturday,True,Low
+82,2025-06-07 18:18:32.140532,Groceries,Vendor_Groceries_5,84.7,Expense,101.64,0.3,Unknown,2025-06,2025-06-01,23,2025,Q2,Saturday,True,Low
+80,2025-06-07 21:43:32.140532,Food & Dining,Vendor_Dining_3,42.59,Expense,63.89,0.41,Unknown,2025-06,2025-06-01,23,2025,Q2,Saturday,True,Low
+81,2025-06-08 06:52:32.140532,Groceries,Vendor_Groceries_2,102.62,Expense,123.14,0.38,Unknown,2025-06,2025-06-01,23,2025,Q2,Sunday,True,Low
+84,2025-06-08 19:40:32.140532,Entertainment,Vendor_Entertainment_5,159.95,Expense,47.98,0.05,Unknown,2025-06,2025-06-01,23,2025,Q2,Sunday,True,Low
+83,2025-06-08 22:45:32.140532,Groceries,Vendor_Groceries_4,121.51,Expense,145.81,0.49,Unknown,2025-06,2025-06-01,23,2025,Q2,Sunday,True,Low
+85,2025-06-09 17:23:32.140532,Groceries,Vendor_Groceries_2,122.47,Expense,146.96,0.53,Unknown,2025-06,2025-06-01,24,2025,Q2,Monday,False,Low
+86,2025-06-09 21:56:32.140532,Healthcare,Vendor_Healthcare_1,148.22,Expense,14.82,0.78,Unknown,2025-06,2025-06-01,24,2025,Q2,Monday,False,Low
+87,2025-06-10 17:37:32.140532,Food & Dining,Vendor_Dining_5,70.78,Expense,106.17,0.22,Unknown,2025-06,2025-06-01,24,2025,Q2,Tuesday,False,Low
+88,2025-06-12 06:37:32.140532,Groceries,Vendor_Groceries_2,121.45,Expense,145.74,0.55,Unknown,2025-06,2025-06-01,24,2025,Q2,Thursday,False,Low
+89,2025-06-13 06:30:32.140532,Transport,Vendor_Transportation_3,47.41,Expense,237.05,0.59,Unknown,2025-06,2025-06-01,24,2025,Q2,Friday,False,Low
+90,2025-06-14 00:19:32.140532,Groceries,Vendor_Groceries_1,77.85,Expense,93.42,0.15,Unknown,2025-06,2025-06-01,24,2025,Q2,Saturday,True,Low
+92,2025-06-14 17:24:32.140532,Groceries,Vendor_Groceries_4,71.3,Expense,85.56,0.7,Unknown,2025-06,2025-06-01,24,2025,Q2,Saturday,True,Low
+91,2025-06-14 19:09:32.140532,Groceries,Vendor_Groceries_5,149.81,Expense,179.77,0.19,Unknown,2025-06,2025-06-01,24,2025,Q2,Saturday,True,Low
+93,2025-06-15 20:23:32.140532,Food & Dining,Vendor_Dining_2,46.32,Expense,69.48,0.68,Unknown,2025-06,2025-06-01,24,2025,Q2,Sunday,True,Low
+94,2025-06-16 04:48:32.140532,Groceries,Vendor_Groceries_3,140.14,Expense,168.17,0.86,Unknown,2025-06,2025-06-01,25,2025,Q2,Monday,False,Low
+95,2025-06-17 04:19:32.140532,Transport,Vendor_Transportation_1,70.24,Expense,351.2,0.76,Unknown,2025-06,2025-06-01,25,2025,Q2,Tuesday,False,Low
+96,2025-06-18 03:00:32.140532,Shopping,Vendor_Shopping_4,297.42,Expense,594.84,0.58,Unknown,2025-06,2025-06-01,25,2025,Q2,Wednesday,False,Low
+97,2025-06-18 21:00:32.140532,Transport,Vendor_Transportation_5,24.35,Expense,121.75,0.65,Unknown,2025-06,2025-06-01,25,2025,Q2,Wednesday,False,Low
+99,2025-06-19 18:16:32.140532,Groceries,Vendor_Groceries_4,104.67,Expense,125.6,0.33,Unknown,2025-06,2025-06-01,25,2025,Q2,Thursday,False,Low
+98,2025-06-20 03:08:32.140532,Food & Dining,Vendor_Dining_2,88.69,Expense,133.03,0.31,Unknown,2025-06,2025-06-01,25,2025,Q2,Friday,False,Low
+100,2025-06-21 03:42:32.140532,Food & Dining,Vendor_Dining_1,92.12,Expense,138.18,0.88,Unknown,2025-06,2025-06-01,25,2025,Q2,Saturday,True,Low
+102,2025-06-21 19:12:32.140532,Groceries,Vendor_Groceries_3,67.52,Expense,81.02,0.48,Unknown,2025-06,2025-06-01,25,2025,Q2,Saturday,True,Low
+103,2025-06-22 02:28:32.140532,Transport,Vendor_Transportation_3,78.14,Expense,390.7,0.86,Unknown,2025-06,2025-06-01,25,2025,Q2,Sunday,True,Low
+101,2025-06-22 05:41:32.140532,Transport,Vendor_Transportation_2,54.64,Expense,273.2,0.36,Unknown,2025-06,2025-06-01,25,2025,Q2,Sunday,True,Low
+105,2025-06-23 06:20:32.140532,Transport,Vendor_Transportation_3,44.63,Expense,223.15,0.37,Unknown,2025-06,2025-06-01,26,2025,Q2,Monday,False,Low
+104,2025-06-23 07:26:32.140532,Entertainment,Vendor_Entertainment_3,61.81,Expense,18.54,0.19,Unknown,2025-06,2025-06-01,26,2025,Q2,Monday,False,Low
+106,2025-06-23 17:08:32.140532,Transport,Vendor_Transportation_5,32.34,Expense,161.7,0.66,Unknown,2025-06,2025-06-01,26,2025,Q2,Monday,False,Low
+108,2025-06-23 17:20:32.140532,Groceries,Vendor_Groceries_3,118.82,Expense,142.58,0.18,Unknown,2025-06,2025-06-01,26,2025,Q2,Monday,False,Low
+107,2025-06-23 21:47:32.140532,Shopping,Vendor_Shopping_3,139.75,Expense,279.5,0.25,Unknown,2025-06,2025-06-01,26,2025,Q2,Monday,False,Low
+110,2025-06-25 01:51:32.140532,Groceries,Vendor_Groceries_2,142.64,Expense,171.17,0.36,Unknown,2025-06,2025-06-01,26,2025,Q2,Wednesday,False,Low
+109,2025-06-25 02:00:32.140532,Food & Dining,Vendor_Dining_1,95.18,Expense,142.77,0.82,Unknown,2025-06,2025-06-01,26,2025,Q2,Wednesday,False,Low
+111,2025-06-25 18:01:32.140532,Transport,Vendor_Transportation_5,52.73,Expense,263.65,0.27,Unknown,2025-06,2025-06-01,26,2025,Q2,Wednesday,False,Low
+112,2025-06-25 22:31:32.140532,Food & Dining,Vendor_Dining_2,61.37,Expense,92.05,0.63,Unknown,2025-06,2025-06-01,26,2025,Q2,Wednesday,False,Low
+113,2025-06-25 22:54:32.140532,Entertainment,Vendor_Entertainment_4,47.97,Expense,14.39,0.03,Unknown,2025-06,2025-06-01,26,2025,Q2,Wednesday,False,Low
+116,2025-06-26 18:34:32.140532,Groceries,Vendor_Groceries_1,89.97,Expense,107.96,0.03,Unknown,2025-06,2025-06-01,26,2025,Q2,Thursday,False,Low
+114,2025-06-26 23:03:32.140532,Groceries,Vendor_Groceries_1,99.56,Expense,119.47,0.44,Unknown,2025-06,2025-06-01,26,2025,Q2,Thursday,False,Low
+115,2025-06-27 00:20:32.140532,Shopping,Vendor_Shopping_1,125.88,Expense,251.76,0.12,Unknown,2025-06,2025-06-01,26,2025,Q2,Friday,False,Low
+118,2025-06-28 19:23:32.140532,Healthcare,Vendor_Healthcare_3,102.88,Expense,10.29,0.12,Unknown,2025-06,2025-06-01,26,2025,Q2,Saturday,True,Low
+117,2025-06-28 21:58:32.140532,Food & Dining,Vendor_Dining_5,31.96,Expense,47.94,0.04,Unknown,2025-06,2025-06-01,26,2025,Q2,Saturday,True,Low
+120,2025-07-01 01:39:32.140532,Groceries,Vendor_Groceries_4,102.63,Expense,123.16,0.37,Unknown,2025-07,2025-07-01,27,2025,Q3,Tuesday,False,Low
+119,2025-07-01 03:52:32.140532,Groceries,Vendor_Groceries_5,67.23,Expense,80.68,0.77,Unknown,2025-07,2025-07-01,27,2025,Q3,Tuesday,False,Low
+122,2025-07-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2025-07,2025-07-01,27,2025,Q3,Tuesday,False,Low
+123,2025-07-01 08:53:32.140532,Subscriptions,Adobe,56.99,Expense,5.7,0.01,Unknown,2025-07,2025-07-01,27,2025,Q3,Tuesday,False,Low
+124,2025-07-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2025-07,2025-07-01,27,2025,Q3,Tuesday,False,Low
+125,2025-07-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-07,2025-07-01,27,2025,Q3,Tuesday,False,Medium
+127,2025-07-02 01:28:32.140532,Entertainment,Vendor_Entertainment_1,64.06,Expense,19.22,0.94,Unknown,2025-07,2025-07-01,27,2025,Q3,Wednesday,False,Low
+126,2025-07-02 05:46:32.140532,Groceries,Vendor_Groceries_3,97.37,Expense,116.84,0.63,Unknown,2025-07,2025-07-01,27,2025,Q3,Wednesday,False,Low
+128,2025-07-02 20:35:32.140532,Groceries,Vendor_Groceries_5,93.34,Expense,112.01,0.66,Unknown,2025-07,2025-07-01,27,2025,Q3,Wednesday,False,Low
+129,2025-07-03 05:03:32.140532,Groceries,Vendor_Groceries_2,52.88,Expense,63.46,0.12,Unknown,2025-07,2025-07-01,27,2025,Q3,Thursday,False,Low
+130,2025-07-03 23:40:32.140532,Groceries,Vendor_Groceries_1,102.39,Expense,122.87,0.61,Unknown,2025-07,2025-07-01,27,2025,Q3,Thursday,False,Low
+132,2025-07-04 20:58:32.140532,Groceries,Vendor_Groceries_4,139.68,Expense,167.62,0.32,Unknown,2025-07,2025-07-01,27,2025,Q3,Friday,False,Low
+131,2025-07-05 04:32:32.140532,Groceries,Vendor_Groceries_5,52.06,Expense,62.47,0.94,Unknown,2025-07,2025-07-01,27,2025,Q3,Saturday,True,Low
+135,2025-07-07 02:22:32.140532,Food & Dining,Vendor_Dining_1,30.62,Expense,45.93,0.38,Unknown,2025-07,2025-07-01,28,2025,Q3,Monday,False,Low
+134,2025-07-07 02:24:32.140532,Entertainment,Vendor_Entertainment_4,163.1,Expense,48.93,0.9,Unknown,2025-07,2025-07-01,28,2025,Q3,Monday,False,Low
+133,2025-07-07 03:38:32.140532,Transport,Vendor_Transportation_1,30.7,Expense,153.5,0.3,Unknown,2025-07,2025-07-01,28,2025,Q3,Monday,False,Low
+136,2025-07-08 17:49:32.140532,Groceries,Vendor_Groceries_4,136.43,Expense,163.72,0.57,Unknown,2025-07,2025-07-01,28,2025,Q3,Tuesday,False,Low
+137,2025-07-09 07:10:32.140532,Transport,Vendor_Transportation_4,26.23,Expense,131.15,0.77,Unknown,2025-07,2025-07-01,28,2025,Q3,Wednesday,False,Low
+140,2025-07-11 20:42:32.140532,Entertainment,Vendor_Entertainment_4,170.76,Expense,51.23,0.24,Unknown,2025-07,2025-07-01,28,2025,Q3,Friday,False,Low
+138,2025-07-12 01:50:32.140532,Groceries,Vendor_Groceries_5,76.11,Expense,91.33,0.89,Unknown,2025-07,2025-07-01,28,2025,Q3,Saturday,True,Low
+139,2025-07-12 05:13:32.140532,Transport,Vendor_Transportation_4,40.63,Expense,203.15,0.37,Unknown,2025-07,2025-07-01,28,2025,Q3,Saturday,True,Low
+141,2025-07-12 20:26:32.140532,Groceries,Vendor_Groceries_1,141.0,Expense,169.2,0.0,Unknown,2025-07,2025-07-01,28,2025,Q3,Saturday,True,Low
+143,2025-07-12 22:44:32.140532,Transport,Vendor_Transportation_2,55.02,Expense,275.1,0.98,Unknown,2025-07,2025-07-01,28,2025,Q3,Saturday,True,Low
+142,2025-07-13 01:55:32.140532,Food & Dining,Vendor_Dining_3,87.34,Expense,131.01,0.66,Unknown,2025-07,2025-07-01,28,2025,Q3,Sunday,True,Low
+144,2025-07-13 21:16:32.140532,Groceries,Vendor_Groceries_5,124.61,Expense,149.53,0.39,Unknown,2025-07,2025-07-01,28,2025,Q3,Sunday,True,Low
+145,2025-07-14 06:18:32.140532,Food & Dining,Vendor_Dining_1,39.1,Expense,58.65,0.9,Unknown,2025-07,2025-07-01,29,2025,Q3,Monday,False,Low
+148,2025-07-14 18:01:32.140532,Shopping,Vendor_Shopping_3,272.91,Expense,545.82,0.09,Unknown,2025-07,2025-07-01,29,2025,Q3,Monday,False,Low
+147,2025-07-14 23:54:32.140532,Groceries,Vendor_Groceries_4,53.4,Expense,64.08,0.6,Unknown,2025-07,2025-07-01,29,2025,Q3,Monday,False,Low
+146,2025-07-15 03:09:32.140532,Transport,Vendor_Transportation_4,65.51,Expense,327.55,0.49,Unknown,2025-07,2025-07-01,29,2025,Q3,Tuesday,False,Low
+149,2025-07-15 18:47:32.140532,Groceries,Vendor_Groceries_5,105.1,Expense,126.12,0.9,Unknown,2025-07,2025-07-01,29,2025,Q3,Tuesday,False,Low
+151,2025-07-17 03:30:32.140532,Groceries,Vendor_Groceries_1,94.81,Expense,113.77,0.19,Unknown,2025-07,2025-07-01,29,2025,Q3,Thursday,False,Low
+150,2025-07-17 03:58:32.140532,Groceries,Vendor_Groceries_4,61.77,Expense,74.12,0.23,Unknown,2025-07,2025-07-01,29,2025,Q3,Thursday,False,Low
+154,2025-07-17 19:59:32.140532,Groceries,Vendor_Groceries_3,69.15,Expense,82.98,0.85,Unknown,2025-07,2025-07-01,29,2025,Q3,Thursday,False,Low
+152,2025-07-18 00:03:32.140532,Food & Dining,Vendor_Dining_3,53.94,Expense,80.91,0.06,Unknown,2025-07,2025-07-01,29,2025,Q3,Friday,False,Low
+153,2025-07-18 03:53:32.140532,Groceries,Vendor_Groceries_4,126.48,Expense,151.78,0.52,Unknown,2025-07,2025-07-01,29,2025,Q3,Friday,False,Low
+156,2025-07-19 00:57:32.140532,Groceries,Vendor_Groceries_4,107.02,Expense,128.42,0.98,Unknown,2025-07,2025-07-01,29,2025,Q3,Saturday,True,Low
+155,2025-07-19 02:16:32.140532,Entertainment,Vendor_Entertainment_1,125.94,Expense,37.78,0.06,Unknown,2025-07,2025-07-01,29,2025,Q3,Saturday,True,Low
+158,2025-07-20 04:10:32.140532,Shopping,Vendor_Shopping_4,83.35,Expense,166.7,0.65,Unknown,2025-07,2025-07-01,29,2025,Q3,Sunday,True,Low
+157,2025-07-20 05:44:32.140532,Transport,Vendor_Transportation_3,77.09,Expense,385.45,0.91,Unknown,2025-07,2025-07-01,29,2025,Q3,Sunday,True,Low
+159,2025-07-20 21:52:32.140532,Groceries,Vendor_Groceries_2,67.78,Expense,81.34,0.22,Unknown,2025-07,2025-07-01,29,2025,Q3,Sunday,True,Low
+160,2025-07-20 22:17:32.140532,Shopping,Vendor_Shopping_2,291.81,Expense,583.62,0.19,Unknown,2025-07,2025-07-01,29,2025,Q3,Sunday,True,Low
+162,2025-07-23 22:53:32.140532,Groceries,Vendor_Groceries_5,53.67,Expense,64.4,0.33,Unknown,2025-07,2025-07-01,30,2025,Q3,Wednesday,False,Low
+161,2025-07-24 05:54:32.140532,Transport,Vendor_Transportation_2,69.07,Expense,345.35,0.93,Unknown,2025-07,2025-07-01,30,2025,Q3,Thursday,False,Low
+163,2025-07-24 17:08:32.140532,Transport,Vendor_Transportation_5,78.43,Expense,392.15,0.57,Unknown,2025-07,2025-07-01,30,2025,Q3,Thursday,False,Low
+164,2025-07-24 23:05:32.140532,Transport,Vendor_Transportation_1,52.11,Expense,260.55,0.89,Unknown,2025-07,2025-07-01,30,2025,Q3,Thursday,False,Low
+165,2025-07-26 06:30:32.140532,Healthcare,Vendor_Healthcare_5,86.83,Expense,8.68,0.17,Unknown,2025-07,2025-07-01,30,2025,Q3,Saturday,True,Low
+166,2025-07-27 06:45:32.140532,Groceries,Vendor_Groceries_1,117.63,Expense,141.16,0.37,Unknown,2025-07,2025-07-01,30,2025,Q3,Sunday,True,Low
+167,2025-07-27 17:32:32.140532,Groceries,Vendor_Groceries_5,113.57,Expense,136.28,0.43,Unknown,2025-07,2025-07-01,30,2025,Q3,Sunday,True,Low
+168,2025-07-27 20:14:32.140532,Utilities,Vendor_Utilities_4,206.99,Expense,517.48,0.01,Unknown,2025-07,2025-07-01,30,2025,Q3,Sunday,True,Low
+170,2025-07-29 01:18:32.140532,Groceries,Vendor_Groceries_5,142.28,Expense,170.74,0.72,Unknown,2025-07,2025-07-01,31,2025,Q3,Tuesday,False,Low
+169,2025-07-29 07:22:32.140532,Groceries,Vendor_Groceries_2,136.44,Expense,163.73,0.56,Unknown,2025-07,2025-07-01,31,2025,Q3,Tuesday,False,Low
+172,2025-07-29 22:16:32.140532,Entertainment,Vendor_Entertainment_1,57.12,Expense,17.14,0.88,Unknown,2025-07,2025-07-01,31,2025,Q3,Tuesday,False,Low
+171,2025-07-30 05:01:32.140532,Shopping,Vendor_Shopping_4,103.46,Expense,206.92,0.54,Unknown,2025-07,2025-07-01,31,2025,Q3,Wednesday,False,Low
+173,2025-07-30 21:09:32.140532,Shopping,Vendor_Shopping_2,1382.24,Expense,2764.48,0.76,Unknown,2025-07,2025-07-01,31,2025,Q3,Wednesday,False,Medium
+175,2025-07-31 03:10:32.140532,Food & Dining,Vendor_Dining_4,90.24,Expense,135.36,0.76,Unknown,2025-07,2025-07-01,31,2025,Q3,Thursday,False,Low
+174,2025-07-31 06:51:32.140532,Groceries,Vendor_Groceries_4,63.72,Expense,76.46,0.28,Unknown,2025-07,2025-07-01,31,2025,Q3,Thursday,False,Low
+178,2025-08-01 08:53:32.140532,Subscriptions,Adobe,56.99,Expense,5.7,0.01,Unknown,2025-08,2025-08-01,31,2025,Q3,Friday,False,Low
+177,2025-08-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2025-08,2025-08-01,31,2025,Q3,Friday,False,Low
+180,2025-08-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-08,2025-08-01,31,2025,Q3,Friday,False,Medium
+179,2025-08-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2025-08,2025-08-01,31,2025,Q3,Friday,False,Low
+183,2025-08-02 23:49:32.140532,Food & Dining,Vendor_Dining_3,72.81,Expense,109.22,0.19,Unknown,2025-08,2025-08-01,31,2025,Q3,Saturday,True,Low
+181,2025-08-03 00:15:32.140532,Groceries,Vendor_Groceries_5,122.14,Expense,146.57,0.86,Unknown,2025-08,2025-08-01,31,2025,Q3,Sunday,True,Low
+182,2025-08-03 01:26:32.140532,Groceries,Vendor_Groceries_4,109.79,Expense,131.75,0.21,Unknown,2025-08,2025-08-01,31,2025,Q3,Sunday,True,Low
+184,2025-08-03 17:05:32.140532,Entertainment,Vendor_Entertainment_2,58.45,Expense,17.54,0.55,Unknown,2025-08,2025-08-01,31,2025,Q3,Sunday,True,Low
+186,2025-08-03 23:11:32.140532,Utilities,Vendor_Utilities_5,222.25,Expense,555.62,0.75,Unknown,2025-08,2025-08-01,31,2025,Q3,Sunday,True,Low
+185,2025-08-04 07:44:32.140532,Transport,Vendor_Transportation_2,38.96,Expense,194.8,0.04,Unknown,2025-08,2025-08-01,32,2025,Q3,Monday,False,Low
+187,2025-08-05 00:40:32.140532,Food & Dining,Vendor_Dining_2,80.06,Expense,120.09,0.94,Unknown,2025-08,2025-08-01,32,2025,Q3,Tuesday,False,Low
+189,2025-08-05 03:29:32.140532,Transport,Vendor_Transportation_5,68.34,Expense,341.7,0.66,Unknown,2025-08,2025-08-01,32,2025,Q3,Tuesday,False,Low
+188,2025-08-05 07:46:32.140532,Groceries,Vendor_Groceries_2,118.69,Expense,142.43,0.31,Unknown,2025-08,2025-08-01,32,2025,Q3,Tuesday,False,Low
+190,2025-08-05 20:58:32.140532,Transport,Vendor_Transportation_3,26.99,Expense,134.95,0.01,Unknown,2025-08,2025-08-01,32,2025,Q3,Tuesday,False,Low
+191,2025-08-06 17:52:32.140532,Groceries,Vendor_Groceries_4,72.26,Expense,86.71,0.74,Unknown,2025-08,2025-08-01,32,2025,Q3,Wednesday,False,Low
+192,2025-08-07 02:05:32.140532,Groceries,Vendor_Groceries_5,142.39,Expense,170.87,0.61,Unknown,2025-08,2025-08-01,32,2025,Q3,Thursday,False,Low
+193,2025-08-08 23:03:32.140532,Food & Dining,Vendor_Dining_4,59.44,Expense,89.16,0.56,Unknown,2025-08,2025-08-01,32,2025,Q3,Friday,False,Low
+194,2025-08-09 03:34:32.140532,Groceries,Vendor_Groceries_4,96.99,Expense,116.39,0.01,Unknown,2025-08,2025-08-01,32,2025,Q3,Saturday,True,Low
+196,2025-08-10 00:13:32.140532,Food & Dining,Vendor_Dining_4,72.26,Expense,108.39,0.74,Unknown,2025-08,2025-08-01,32,2025,Q3,Sunday,True,Low
+197,2025-08-10 00:33:32.140532,Food & Dining,Vendor_Dining_3,70.98,Expense,106.47,0.02,Unknown,2025-08,2025-08-01,32,2025,Q3,Sunday,True,Low
+195,2025-08-10 06:45:32.140532,Transport,Vendor_Transportation_1,75.11,Expense,375.55,0.89,Unknown,2025-08,2025-08-01,32,2025,Q3,Sunday,True,Low
+199,2025-08-12 17:34:32.140532,Transport,Vendor_Transportation_1,26.79,Expense,133.95,0.21,Unknown,2025-08,2025-08-01,33,2025,Q3,Tuesday,False,Low
+198,2025-08-12 23:14:32.140532,Shopping,Vendor_Shopping_2,155.35,Expense,310.7,0.65,Unknown,2025-08,2025-08-01,33,2025,Q3,Tuesday,False,Low
+201,2025-08-13 17:10:32.140532,Groceries,Vendor_Groceries_2,119.97,Expense,143.96,0.03,Unknown,2025-08,2025-08-01,33,2025,Q3,Wednesday,False,Low
+202,2025-08-13 19:25:32.140532,Food & Dining,Vendor_Dining_5,84.3,Expense,126.45,0.7,Unknown,2025-08,2025-08-01,33,2025,Q3,Wednesday,False,Low
+200,2025-08-14 00:50:32.140532,Food & Dining,Vendor_Dining_5,57.25,Expense,85.88,0.75,Unknown,2025-08,2025-08-01,33,2025,Q3,Thursday,False,Low
+204,2025-08-14 17:55:32.140532,Groceries,Vendor_Groceries_3,85.24,Expense,102.29,0.76,Unknown,2025-08,2025-08-01,33,2025,Q3,Thursday,False,Low
+203,2025-08-14 21:46:32.140532,Transport,Vendor_Transportation_2,58.89,Expense,294.45,0.11,Unknown,2025-08,2025-08-01,33,2025,Q3,Thursday,False,Low
+205,2025-08-14 23:53:32.140532,Groceries,Vendor_Groceries_3,97.96,Expense,117.55,0.04,Unknown,2025-08,2025-08-01,33,2025,Q3,Thursday,False,Low
+206,2025-08-15 21:28:32.140532,Groceries,Vendor_Groceries_1,106.99,Expense,128.39,0.01,Unknown,2025-08,2025-08-01,33,2025,Q3,Friday,False,Low
+208,2025-08-15 22:02:32.140532,Entertainment,Vendor_Entertainment_1,104.3,Expense,31.29,0.7,Unknown,2025-08,2025-08-01,33,2025,Q3,Friday,False,Low
+207,2025-08-16 02:12:32.140532,Entertainment,Vendor_Entertainment_5,78.64,Expense,23.59,0.36,Unknown,2025-08,2025-08-01,33,2025,Q3,Saturday,True,Low
+209,2025-08-16 18:49:32.140532,Food & Dining,Vendor_Dining_5,65.6,Expense,98.4,0.4,Unknown,2025-08,2025-08-01,33,2025,Q3,Saturday,True,Low
+210,2025-08-18 01:04:32.140532,Transport,Vendor_Transportation_4,29.18,Expense,145.9,0.82,Unknown,2025-08,2025-08-01,34,2025,Q3,Monday,False,Low
+211,2025-08-18 07:06:32.140532,Food & Dining,Vendor_Dining_3,56.87,Expense,85.3,0.13,Unknown,2025-08,2025-08-01,34,2025,Q3,Monday,False,Low
+212,2025-08-19 04:16:32.140532,Groceries,Vendor_Groceries_5,103.93,Expense,124.72,0.07,Unknown,2025-08,2025-08-01,34,2025,Q3,Tuesday,False,Low
+213,2025-08-19 19:43:32.140532,Entertainment,Vendor_Entertainment_3,28.17,Expense,8.45,0.83,Unknown,2025-08,2025-08-01,34,2025,Q3,Tuesday,False,Low
+215,2025-08-20 22:28:32.140532,Entertainment,Vendor_Entertainment_5,147.8,Expense,44.34,0.2,Unknown,2025-08,2025-08-01,34,2025,Q3,Wednesday,False,Low
+214,2025-08-21 04:00:32.140532,Utilities,Vendor_Utilities_2,227.85,Expense,569.62,0.15,Unknown,2025-08,2025-08-01,34,2025,Q3,Thursday,False,Low
+216,2025-08-23 17:30:32.140532,Groceries,Vendor_Groceries_4,138.42,Expense,166.1,0.58,Unknown,2025-08,2025-08-01,34,2025,Q3,Saturday,True,Low
+218,2025-08-24 20:40:32.140532,Food & Dining,Vendor_Dining_5,55.74,Expense,83.61,0.26,Unknown,2025-08,2025-08-01,34,2025,Q3,Sunday,True,Low
+217,2025-08-24 21:45:32.140532,Food & Dining,Vendor_Dining_2,68.52,Expense,102.78,0.48,Unknown,2025-08,2025-08-01,34,2025,Q3,Sunday,True,Low
+219,2025-08-26 00:55:32.140532,Entertainment,Vendor_Entertainment_3,55.34,Expense,16.6,0.66,Unknown,2025-08,2025-08-01,35,2025,Q3,Tuesday,False,Low
+220,2025-08-28 01:38:32.140532,Groceries,Vendor_Groceries_2,132.85,Expense,159.42,0.15,Unknown,2025-08,2025-08-01,35,2025,Q3,Thursday,False,Low
+221,2025-08-28 18:43:32.140532,Food & Dining,Vendor_Dining_5,66.79,Expense,100.19,0.21,Unknown,2025-08,2025-08-01,35,2025,Q3,Thursday,False,Low
+222,2025-08-28 19:06:32.140532,Transport,Vendor_Transportation_3,58.17,Expense,290.85,0.83,Unknown,2025-08,2025-08-01,35,2025,Q3,Thursday,False,Low
+223,2025-08-30 06:04:32.140532,Food & Dining,Vendor_Dining_4,87.92,Expense,131.88,0.08,Unknown,2025-08,2025-08-01,35,2025,Q3,Saturday,True,Low
+224,2025-08-30 07:40:32.140532,Transport,Vendor_Transportation_5,38.37,Expense,191.85,0.63,Unknown,2025-08,2025-08-01,35,2025,Q3,Saturday,True,Low
+227,2025-08-30 17:50:32.140532,Food & Dining,Vendor_Dining_3,90.54,Expense,135.81,0.46,Unknown,2025-08,2025-08-01,35,2025,Q3,Saturday,True,Low
+226,2025-08-31 03:24:32.140532,Entertainment,Vendor_Entertainment_4,93.19,Expense,27.96,0.81,Unknown,2025-08,2025-08-01,35,2025,Q3,Sunday,True,Low
+225,2025-08-31 06:11:32.140532,Transport,Vendor_Transportation_4,55.71,Expense,278.55,0.29,Unknown,2025-08,2025-08-01,35,2025,Q3,Sunday,True,Low
+228,2025-09-01 01:35:32.140532,Transport,Vendor_Transportation_5,66.75,Expense,333.75,0.25,Unknown,2025-09,2025-09-01,36,2025,Q3,Monday,False,Low
+229,2025-09-01 05:40:32.140532,Healthcare,Vendor_Healthcare_5,191.64,Expense,19.16,0.36,Unknown,2025-09,2025-09-01,36,2025,Q3,Monday,False,Low
+231,2025-09-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2025-09,2025-09-01,36,2025,Q3,Monday,False,Low
+234,2025-09-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-09,2025-09-01,36,2025,Q3,Monday,False,Medium
+233,2025-09-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2025-09,2025-09-01,36,2025,Q3,Monday,False,Low
+232,2025-09-01 08:53:32.140532,Subscriptions,Adobe,56.99,Expense,5.7,0.01,Unknown,2025-09,2025-09-01,36,2025,Q3,Monday,False,Low
+236,2025-09-03 04:09:32.140532,Groceries,Vendor_Groceries_3,87.24,Expense,104.69,0.76,Unknown,2025-09,2025-09-01,36,2025,Q3,Wednesday,False,Low
+235,2025-09-03 07:18:32.140532,Transport,Vendor_Transportation_2,69.96,Expense,349.8,0.04,Unknown,2025-09,2025-09-01,36,2025,Q3,Wednesday,False,Low
+238,2025-09-07 03:14:32.140532,Groceries,Vendor_Groceries_1,137.81,Expense,165.37,0.19,Unknown,2025-09,2025-09-01,36,2025,Q3,Sunday,True,Low
+237,2025-09-07 06:04:32.140532,Groceries,Vendor_Groceries_5,133.92,Expense,160.7,0.08,Unknown,2025-09,2025-09-01,36,2025,Q3,Sunday,True,Low
+239,2025-09-08 03:01:32.140532,Entertainment,Vendor_Entertainment_1,22.97,Expense,6.89,0.03,Unknown,2025-09,2025-09-01,37,2025,Q3,Monday,False,Low
+240,2025-09-08 05:54:32.140532,Food & Dining,Vendor_Dining_5,52.62,Expense,78.93,0.38,Unknown,2025-09,2025-09-01,37,2025,Q3,Monday,False,Low
+241,2025-09-09 04:29:32.140532,Transport,Vendor_Transportation_3,39.92,Expense,199.6,0.08,Unknown,2025-09,2025-09-01,37,2025,Q3,Tuesday,False,Low
+244,2025-09-09 18:52:32.140532,Groceries,Vendor_Groceries_1,92.51,Expense,111.01,0.49,Unknown,2025-09,2025-09-01,37,2025,Q3,Tuesday,False,Low
+242,2025-09-09 19:57:32.140532,Food & Dining,Vendor_Dining_3,31.74,Expense,47.61,0.26,Unknown,2025-09,2025-09-01,37,2025,Q3,Tuesday,False,Low
+243,2025-09-10 06:36:32.140532,Shopping,Vendor_Shopping_4,115.98,Expense,231.96,0.02,Unknown,2025-09,2025-09-01,37,2025,Q3,Wednesday,False,Low
+245,2025-09-11 18:31:32.140532,Groceries,Vendor_Groceries_2,71.94,Expense,86.33,0.06,Unknown,2025-09,2025-09-01,37,2025,Q3,Thursday,False,Low
+246,2025-09-11 21:18:32.140532,Utilities,Vendor_Utilities_4,192.89,Expense,482.22,0.11,Unknown,2025-09,2025-09-01,37,2025,Q3,Thursday,False,Low
+247,2025-09-12 00:28:32.140532,Shopping,Vendor_Shopping_4,163.95,Expense,327.9,0.05,Unknown,2025-09,2025-09-01,37,2025,Q3,Friday,False,Low
+248,2025-09-13 06:23:32.140532,Utilities,Vendor_Utilities_2,220.72,Expense,551.8,0.28,Unknown,2025-09,2025-09-01,37,2025,Q3,Saturday,True,Low
+249,2025-09-15 19:25:32.140532,Transport,Vendor_Transportation_1,48.56,Expense,242.8,0.44,Unknown,2025-09,2025-09-01,38,2025,Q3,Monday,False,Low
+250,2025-09-17 18:57:32.140532,Groceries,Vendor_Groceries_5,136.27,Expense,163.52,0.73,Unknown,2025-09,2025-09-01,38,2025,Q3,Wednesday,False,Low
+252,2025-09-19 00:31:32.140532,Entertainment,Vendor_Entertainment_3,170.37,Expense,51.11,0.63,Unknown,2025-09,2025-09-01,38,2025,Q3,Friday,False,Low
+251,2025-09-19 04:44:32.140532,Food & Dining,Vendor_Dining_4,36.18,Expense,54.27,0.82,Unknown,2025-09,2025-09-01,38,2025,Q3,Friday,False,Low
+253,2025-09-20 01:37:32.140532,Healthcare,Vendor_Healthcare_4,333.79,Expense,33.38,0.21,Unknown,2025-09,2025-09-01,38,2025,Q3,Saturday,True,Low
+254,2025-09-20 02:12:32.140532,Groceries,Vendor_Groceries_1,121.38,Expense,145.66,0.62,Unknown,2025-09,2025-09-01,38,2025,Q3,Saturday,True,Low
+255,2025-09-21 17:42:32.140532,Groceries,Vendor_Groceries_3,134.23,Expense,161.08,0.77,Unknown,2025-09,2025-09-01,38,2025,Q3,Sunday,True,Low
+256,2025-09-22 22:12:32.140532,Transport,Vendor_Transportation_3,46.46,Expense,232.3,0.54,Unknown,2025-09,2025-09-01,39,2025,Q3,Monday,False,Low
+257,2025-09-24 00:29:32.140532,Groceries,Vendor_Groceries_3,62.23,Expense,74.68,0.77,Unknown,2025-09,2025-09-01,39,2025,Q3,Wednesday,False,Low
+259,2025-09-25 00:55:32.140532,Utilities,Vendor_Utilities_2,136.5,Expense,341.25,0.5,Unknown,2025-09,2025-09-01,39,2025,Q3,Thursday,False,Low
+258,2025-09-25 02:55:32.140532,Transport,Vendor_Transportation_3,25.87,Expense,129.35,0.13,Unknown,2025-09,2025-09-01,39,2025,Q3,Thursday,False,Low
+262,2025-09-26 18:04:32.140532,Food & Dining,Vendor_Dining_2,79.17,Expense,118.75,0.83,Unknown,2025-09,2025-09-01,39,2025,Q3,Friday,False,Low
+260,2025-09-26 20:31:32.140532,Entertainment,Vendor_Entertainment_2,149.29,Expense,44.79,0.71,Unknown,2025-09,2025-09-01,39,2025,Q3,Friday,False,Low
+261,2025-09-26 23:13:32.140532,Groceries,Vendor_Groceries_3,133.93,Expense,160.72,0.07,Unknown,2025-09,2025-09-01,39,2025,Q3,Friday,False,Low
+265,2025-09-27 20:54:32.140532,Transport,Vendor_Transportation_3,31.29,Expense,156.45,0.71,Unknown,2025-09,2025-09-01,39,2025,Q3,Saturday,True,Low
+263,2025-09-27 22:17:32.140532,Food & Dining,Vendor_Dining_4,37.83,Expense,56.74,0.17,Unknown,2025-09,2025-09-01,39,2025,Q3,Saturday,True,Low
+264,2025-09-28 05:04:32.140532,Groceries,Vendor_Groceries_5,117.07,Expense,140.48,0.93,Unknown,2025-09,2025-09-01,39,2025,Q3,Sunday,True,Low
+267,2025-09-28 20:25:32.140532,Groceries,Vendor_Groceries_1,119.97,Expense,143.96,0.03,Unknown,2025-09,2025-09-01,39,2025,Q3,Sunday,True,Low
+266,2025-09-28 21:45:32.140532,Shopping,Vendor_Shopping_4,100.83,Expense,201.66,0.17,Unknown,2025-09,2025-09-01,39,2025,Q3,Sunday,True,Low
+268,2025-09-30 07:19:32.140532,Entertainment,Vendor_Entertainment_4,146.72,Expense,44.02,0.28,Unknown,2025-09,2025-09-01,40,2025,Q3,Tuesday,False,Low
+273,2025-10-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-10,2025-10-01,40,2025,Q4,Wednesday,False,Medium
+272,2025-10-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2025-10,2025-10-01,40,2025,Q4,Wednesday,False,Low
+271,2025-10-01 08:53:32.140532,Subscriptions,Adobe,56.99,Expense,5.7,0.01,Unknown,2025-10,2025-10-01,40,2025,Q4,Wednesday,False,Low
+270,2025-10-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2025-10,2025-10-01,40,2025,Q4,Wednesday,False,Low
+275,2025-10-01 18:15:32.140532,Groceries,Vendor_Groceries_2,113.44,Expense,136.13,0.56,Unknown,2025-10,2025-10-01,40,2025,Q4,Wednesday,False,Low
+274,2025-10-02 07:05:32.140532,Groceries,Vendor_Groceries_1,62.71,Expense,75.25,0.29,Unknown,2025-10,2025-10-01,40,2025,Q4,Thursday,False,Low
+278,2025-10-05 02:57:32.140532,Groceries,Vendor_Groceries_1,89.39,Expense,107.27,0.61,Unknown,2025-10,2025-10-01,40,2025,Q4,Sunday,True,Low
+277,2025-10-05 03:56:32.140532,Transport,Vendor_Transportation_5,29.71,Expense,148.55,0.29,Unknown,2025-10,2025-10-01,40,2025,Q4,Sunday,True,Low
+276,2025-10-05 05:03:32.140532,Food & Dining,Vendor_Dining_1,68.92,Expense,103.38,0.08,Unknown,2025-10,2025-10-01,40,2025,Q4,Sunday,True,Low
+280,2025-10-05 17:49:32.140532,Food & Dining,Vendor_Dining_5,51.98,Expense,77.97,0.02,Unknown,2025-10,2025-10-01,40,2025,Q4,Sunday,True,Low
+279,2025-10-06 03:13:32.140532,Entertainment,Vendor_Entertainment_4,183.96,Expense,55.19,0.04,Unknown,2025-10,2025-10-01,41,2025,Q4,Monday,False,Low
+281,2025-10-06 07:41:32.140532,Groceries,Vendor_Groceries_5,119.61,Expense,143.53,0.39,Unknown,2025-10,2025-10-01,41,2025,Q4,Monday,False,Low
+282,2025-10-06 22:33:32.140532,Food & Dining,Vendor_Dining_4,31.19,Expense,46.79,0.81,Unknown,2025-10,2025-10-01,41,2025,Q4,Monday,False,Low
+283,2025-10-07 19:59:32.140532,Groceries,Vendor_Groceries_3,77.54,Expense,93.05,0.46,Unknown,2025-10,2025-10-01,41,2025,Q4,Tuesday,False,Low
+285,2025-10-08 01:02:32.140532,Food & Dining,Vendor_Dining_3,77.13,Expense,115.69,0.87,Unknown,2025-10,2025-10-01,41,2025,Q4,Wednesday,False,Low
+284,2025-10-08 03:00:32.140532,Transport,Vendor_Transportation_5,55.9,Expense,279.5,0.1,Unknown,2025-10,2025-10-01,41,2025,Q4,Wednesday,False,Low
+286,2025-10-09 07:21:32.140532,Transport,Vendor_Transportation_5,75.04,Expense,375.2,0.96,Unknown,2025-10,2025-10-01,41,2025,Q4,Thursday,False,Low
+288,2025-10-09 18:50:32.140532,Entertainment,Vendor_Entertainment_3,34.53,Expense,10.36,0.47,Unknown,2025-10,2025-10-01,41,2025,Q4,Thursday,False,Low
+287,2025-10-10 00:36:32.140532,Transport,Vendor_Transportation_1,73.14,Expense,365.7,0.86,Unknown,2025-10,2025-10-01,41,2025,Q4,Friday,False,Low
+289,2025-10-10 17:22:32.140532,Healthcare,Vendor_Healthcare_5,234.33,Expense,23.43,0.67,Unknown,2025-10,2025-10-01,41,2025,Q4,Friday,False,Low
+290,2025-10-10 17:26:32.140532,Groceries,Vendor_Groceries_1,108.65,Expense,130.38,0.35,Unknown,2025-10,2025-10-01,41,2025,Q4,Friday,False,Low
+291,2025-10-11 04:34:32.140532,Entertainment,Vendor_Entertainment_5,160.95,Expense,48.28,0.05,Unknown,2025-10,2025-10-01,41,2025,Q4,Saturday,True,Low
+292,2025-10-12 02:54:32.140532,Food & Dining,Vendor_Dining_4,97.87,Expense,146.81,0.13,Unknown,2025-10,2025-10-01,41,2025,Q4,Sunday,True,Low
+294,2025-10-13 18:12:32.140532,Shopping,Vendor_Shopping_2,219.0,Expense,438.0,0.0,Unknown,2025-10,2025-10-01,42,2025,Q4,Monday,False,Low
+295,2025-10-13 22:43:32.140532,Food & Dining,Vendor_Dining_2,93.28,Expense,139.92,0.72,Unknown,2025-10,2025-10-01,42,2025,Q4,Monday,False,Low
+293,2025-10-14 05:11:32.140532,Transport,Vendor_Transportation_4,58.48,Expense,292.4,0.52,Unknown,2025-10,2025-10-01,42,2025,Q4,Tuesday,False,Low
+297,2025-10-14 17:41:32.140532,Food & Dining,Vendor_Dining_1,45.74,Expense,68.61,0.26,Unknown,2025-10,2025-10-01,42,2025,Q4,Tuesday,False,Low
+296,2025-10-14 18:26:32.140532,Groceries,Vendor_Groceries_2,54.32,Expense,65.18,0.68,Unknown,2025-10,2025-10-01,42,2025,Q4,Tuesday,False,Low
+298,2025-10-14 19:19:32.140532,Groceries,Vendor_Groceries_2,99.29,Expense,119.15,0.71,Unknown,2025-10,2025-10-01,42,2025,Q4,Tuesday,False,Low
+299,2025-10-15 21:30:32.140532,Entertainment,Vendor_Entertainment_5,99.76,Expense,29.93,0.24,Unknown,2025-10,2025-10-01,42,2025,Q4,Wednesday,False,Low
+300,2025-10-15 22:42:32.140532,Entertainment,Vendor_Entertainment_3,190.66,Expense,57.2,0.34,Unknown,2025-10,2025-10-01,42,2025,Q4,Wednesday,False,Low
+301,2025-10-15 23:04:32.140532,Groceries,Vendor_Groceries_3,119.92,Expense,143.9,0.08,Unknown,2025-10,2025-10-01,42,2025,Q4,Wednesday,False,Low
+302,2025-10-16 20:23:32.140532,Groceries,Vendor_Groceries_1,121.4,Expense,145.68,0.6,Unknown,2025-10,2025-10-01,42,2025,Q4,Thursday,False,Low
+304,2025-10-16 20:46:32.140532,Transport,Vendor_Transportation_1,76.39,Expense,381.95,0.61,Unknown,2025-10,2025-10-01,42,2025,Q4,Thursday,False,Low
+303,2025-10-17 00:08:32.140532,Transport,Vendor_Transportation_2,36.81,Expense,184.05,0.19,Unknown,2025-10,2025-10-01,42,2025,Q4,Friday,False,Low
+307,2025-10-18 19:15:32.140532,Healthcare,Vendor_Healthcare_5,141.94,Expense,14.19,0.06,Unknown,2025-10,2025-10-01,42,2025,Q4,Saturday,True,Low
+306,2025-10-18 20:39:32.140532,Healthcare,Vendor_Healthcare_1,100.62,Expense,10.06,0.38,Unknown,2025-10,2025-10-01,42,2025,Q4,Saturday,True,Low
+305,2025-10-19 04:57:32.140532,Utilities,Vendor_Utilities_2,256.56,Expense,641.4,0.44,Unknown,2025-10,2025-10-01,42,2025,Q4,Sunday,True,Low
+309,2025-10-20 19:05:32.140532,Utilities,Vendor_Utilities_1,216.0,Expense,540.0,0.0,Unknown,2025-10,2025-10-01,43,2025,Q4,Monday,False,Low
+308,2025-10-20 19:26:32.140532,Transport,Vendor_Transportation_5,41.96,Expense,209.8,0.04,Unknown,2025-10,2025-10-01,43,2025,Q4,Monday,False,Low
+310,2025-10-22 03:12:32.140532,Transport,Vendor_Transportation_1,72.99,Expense,364.95,0.01,Unknown,2025-10,2025-10-01,43,2025,Q4,Wednesday,False,Low
+312,2025-10-22 05:09:32.140532,Groceries,Vendor_Groceries_4,79.72,Expense,95.66,0.28,Unknown,2025-10,2025-10-01,43,2025,Q4,Wednesday,False,Low
+311,2025-10-22 06:26:32.140532,Transport,Vendor_Transportation_4,39.26,Expense,196.3,0.74,Unknown,2025-10,2025-10-01,43,2025,Q4,Wednesday,False,Low
+313,2025-10-24 06:48:32.140532,Entertainment,Vendor_Entertainment_5,187.21,Expense,56.16,0.79,Unknown,2025-10,2025-10-01,43,2025,Q4,Friday,False,Low
+314,2025-10-25 01:12:32.140532,Food & Dining,Vendor_Dining_1,33.19,Expense,49.78,0.81,Unknown,2025-10,2025-10-01,43,2025,Q4,Saturday,True,Low
+315,2025-10-26 22:07:32.140532,Groceries,Vendor_Groceries_1,70.37,Expense,84.44,0.63,Unknown,2025-10,2025-10-01,43,2025,Q4,Sunday,True,Low
+316,2025-10-27 19:20:32.140532,Groceries,Vendor_Groceries_1,97.61,Expense,117.13,0.39,Unknown,2025-10,2025-10-01,44,2025,Q4,Monday,False,Low
+319,2025-10-28 18:35:32.140532,Groceries,Vendor_Groceries_5,86.68,Expense,104.02,0.32,Unknown,2025-10,2025-10-01,44,2025,Q4,Tuesday,False,Low
+318,2025-10-28 21:49:32.140532,Utilities,Vendor_Utilities_5,210.09,Expense,525.23,0.91,Unknown,2025-10,2025-10-01,44,2025,Q4,Tuesday,False,Low
+317,2025-10-29 01:00:32.140532,Food & Dining,Vendor_Dining_4,33.82,Expense,50.73,0.18,Unknown,2025-10,2025-10-01,44,2025,Q4,Wednesday,False,Low
+321,2025-10-30 21:41:32.140532,Shopping,Vendor_Shopping_5,95.89,Expense,191.78,0.11,Unknown,2025-10,2025-10-01,44,2025,Q4,Thursday,False,Low
+320,2025-10-31 03:37:32.140532,Entertainment,Vendor_Entertainment_5,145.94,Expense,43.78,0.06,Unknown,2025-10,2025-10-01,44,2025,Q4,Friday,False,Low
+322,2025-10-31 22:55:32.140532,Transport,Vendor_Transportation_5,47.29,Expense,236.45,0.71,Unknown,2025-10,2025-10-01,44,2025,Q4,Friday,False,Low
+323,2025-11-01 00:14:32.140532,Entertainment,Vendor_Entertainment_3,164.6,Expense,49.38,0.4,Unknown,2025-11,2025-11-01,44,2025,Q4,Saturday,True,Low
+324,2025-11-01 03:00:32.140532,Utilities,Vendor_Utilities_1,195.13,Expense,487.82,0.87,Unknown,2025-11,2025-11-01,44,2025,Q4,Saturday,True,Low
+329,2025-11-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-11,2025-11-01,44,2025,Q4,Saturday,True,Medium
+328,2025-11-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2025-11,2025-11-01,44,2025,Q4,Saturday,True,Low
+327,2025-11-01 08:53:32.140532,Subscriptions,Adobe,56.99,Expense,5.7,0.01,Unknown,2025-11,2025-11-01,44,2025,Q4,Saturday,True,Low
+326,2025-11-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2025-11,2025-11-01,44,2025,Q4,Saturday,True,Low
+331,2025-11-02 17:59:32.140532,Entertainment,Vendor_Entertainment_5,44.22,Expense,13.27,0.78,Unknown,2025-11,2025-11-01,44,2025,Q4,Sunday,True,Low
+330,2025-11-03 02:38:32.140532,Transport,Vendor_Transportation_3,23.59,Expense,117.95,0.41,Unknown,2025-11,2025-11-01,45,2025,Q4,Monday,False,Low
+333,2025-11-03 23:10:32.140532,Food & Dining,Vendor_Dining_1,86.43,Expense,129.65,0.57,Unknown,2025-11,2025-11-01,45,2025,Q4,Monday,False,Low
+332,2025-11-04 04:39:32.140532,Food & Dining,Vendor_Dining_1,46.34,Expense,69.51,0.66,Unknown,2025-11,2025-11-01,45,2025,Q4,Tuesday,False,Low
+334,2025-11-06 05:47:32.140532,Groceries,Vendor_Groceries_4,147.25,Expense,176.7,0.75,Unknown,2025-11,2025-11-01,45,2025,Q4,Thursday,False,Low
+337,2025-11-06 22:48:32.140532,Healthcare,Vendor_Healthcare_1,372.13,Expense,37.21,0.87,Unknown,2025-11,2025-11-01,45,2025,Q4,Thursday,False,Low
+336,2025-11-06 23:13:32.140532,Transport,Vendor_Transportation_2,69.56,Expense,347.8,0.44,Unknown,2025-11,2025-11-01,45,2025,Q4,Thursday,False,Low
+335,2025-11-07 03:52:32.140532,Groceries,Vendor_Groceries_1,94.43,Expense,113.32,0.57,Unknown,2025-11,2025-11-01,45,2025,Q4,Friday,False,Low
+338,2025-11-07 23:40:32.140532,Groceries,Vendor_Groceries_5,95.91,Expense,115.09,0.09,Unknown,2025-11,2025-11-01,45,2025,Q4,Friday,False,Low
+339,2025-11-08 20:59:32.140532,Groceries,Vendor_Groceries_4,54.88,Expense,65.86,0.12,Unknown,2025-11,2025-11-01,45,2025,Q4,Saturday,True,Low
+340,2025-11-09 02:51:32.140532,Transport,Vendor_Transportation_5,39.89,Expense,199.45,0.11,Unknown,2025-11,2025-11-01,45,2025,Q4,Sunday,True,Low
+341,2025-11-09 21:55:32.140532,Shopping,Vendor_Shopping_3,117.84,Expense,235.68,0.16,Unknown,2025-11,2025-11-01,45,2025,Q4,Sunday,True,Low
+344,2025-11-10 18:08:32.140532,Food & Dining,Vendor_Dining_3,47.09,Expense,70.64,0.91,Unknown,2025-11,2025-11-01,46,2025,Q4,Monday,False,Low
+342,2025-11-10 21:21:32.140532,Transport,Vendor_Transportation_4,27.42,Expense,137.1,0.58,Unknown,2025-11,2025-11-01,46,2025,Q4,Monday,False,Low
+343,2025-11-11 04:39:32.140532,Food & Dining,Vendor_Dining_5,40.12,Expense,60.18,0.88,Unknown,2025-11,2025-11-01,46,2025,Q4,Tuesday,False,Low
+345,2025-11-11 20:48:32.140532,Shopping,Vendor_Shopping_5,163.44,Expense,326.88,0.56,Unknown,2025-11,2025-11-01,46,2025,Q4,Tuesday,False,Low
+346,2025-11-13 00:28:32.140532,Utilities,Vendor_Utilities_2,299.82,Expense,749.55,0.18,Unknown,2025-11,2025-11-01,46,2025,Q4,Thursday,False,Low
+349,2025-11-13 21:54:32.140532,Groceries,Vendor_Groceries_4,106.02,Expense,127.22,0.98,Unknown,2025-11,2025-11-01,46,2025,Q4,Thursday,False,Low
+348,2025-11-14 03:00:32.140532,Food & Dining,Vendor_Dining_4,52.83,Expense,79.25,0.17,Unknown,2025-11,2025-11-01,46,2025,Q4,Friday,False,Low
+347,2025-11-14 06:23:32.140532,Groceries,Vendor_Groceries_5,73.86,Expense,88.63,0.14,Unknown,2025-11,2025-11-01,46,2025,Q4,Friday,False,Low
+351,2025-11-16 01:52:32.140532,Transport,Vendor_Transportation_3,64.88,Expense,324.4,0.12,Unknown,2025-11,2025-11-01,46,2025,Q4,Sunday,True,Low
+350,2025-11-16 05:21:32.140532,Groceries,Vendor_Groceries_3,68.39,Expense,82.07,0.61,Unknown,2025-11,2025-11-01,46,2025,Q4,Sunday,True,Low
+353,2025-11-17 19:30:32.140532,Transport,Vendor_Transportation_1,78.46,Expense,392.3,0.54,Unknown,2025-11,2025-11-01,47,2025,Q4,Monday,False,Low
+352,2025-11-18 05:02:32.140532,Entertainment,Vendor_Entertainment_2,92.78,Expense,27.83,0.22,Unknown,2025-11,2025-11-01,47,2025,Q4,Tuesday,False,Low
+354,2025-11-19 07:27:32.140532,Transport,Vendor_Transportation_4,65.25,Expense,326.25,0.75,Unknown,2025-11,2025-11-01,47,2025,Q4,Wednesday,False,Low
+355,2025-11-19 19:16:32.140532,Shopping,Vendor_Shopping_2,108.38,Expense,216.76,0.62,Unknown,2025-11,2025-11-01,47,2025,Q4,Wednesday,False,Low
+356,2025-11-19 19:34:32.140532,Food & Dining,Vendor_Dining_3,49.11,Expense,73.66,0.89,Unknown,2025-11,2025-11-01,47,2025,Q4,Wednesday,False,Low
+357,2025-11-20 02:45:32.140532,Groceries,Vendor_Groceries_3,134.95,Expense,161.94,0.05,Unknown,2025-11,2025-11-01,47,2025,Q4,Thursday,False,Low
+360,2025-11-20 19:49:32.140532,Groceries,Vendor_Groceries_2,120.55,Expense,144.66,0.45,Unknown,2025-11,2025-11-01,47,2025,Q4,Thursday,False,Low
+358,2025-11-21 01:59:32.140532,Groceries,Vendor_Groceries_4,52.69,Expense,63.23,0.31,Unknown,2025-11,2025-11-01,47,2025,Q4,Friday,False,Low
+359,2025-11-21 05:10:32.140532,Food & Dining,Vendor_Dining_1,33.02,Expense,49.53,0.98,Unknown,2025-11,2025-11-01,47,2025,Q4,Friday,False,Low
+361,2025-11-21 18:30:32.140532,Food & Dining,Vendor_Dining_1,51.21,Expense,76.81,0.79,Unknown,2025-11,2025-11-01,47,2025,Q4,Friday,False,Low
+362,2025-11-21 20:42:32.140532,Entertainment,Vendor_Entertainment_4,54.15,Expense,16.24,0.85,Unknown,2025-11,2025-11-01,47,2025,Q4,Friday,False,Low
+363,2025-11-22 23:37:32.140532,Groceries,Vendor_Groceries_3,145.34,Expense,174.41,0.66,Unknown,2025-11,2025-11-01,47,2025,Q4,Saturday,True,Low
+365,2025-11-23 02:59:32.140532,Transport,Vendor_Transportation_3,55.84,Expense,279.2,0.16,Unknown,2025-11,2025-11-01,47,2025,Q4,Sunday,True,Low
+364,2025-11-23 04:54:32.140532,Groceries,Vendor_Groceries_2,57.12,Expense,68.54,0.88,Unknown,2025-11,2025-11-01,47,2025,Q4,Sunday,True,Low
+366,2025-11-24 01:55:32.140532,Transport,Vendor_Transportation_2,35.89,Expense,179.45,0.11,Unknown,2025-11,2025-11-01,48,2025,Q4,Monday,False,Low
+367,2025-11-24 07:47:32.140532,Transport,Vendor_Transportation_4,74.6,Expense,373.0,0.4,Unknown,2025-11,2025-11-01,48,2025,Q4,Monday,False,Low
+368,2025-11-25 21:59:32.140532,Food & Dining,Vendor_Dining_5,45.53,Expense,68.3,0.47,Unknown,2025-11,2025-11-01,48,2025,Q4,Tuesday,False,Low
+369,2025-11-26 20:43:32.140532,Entertainment,Vendor_Entertainment_5,121.46,Expense,36.44,0.54,Unknown,2025-11,2025-11-01,48,2025,Q4,Wednesday,False,Low
+370,2025-11-27 19:23:32.140532,Groceries,Vendor_Groceries_2,128.9,Expense,154.68,0.1,Unknown,2025-11,2025-11-01,48,2025,Q4,Thursday,False,Low
+371,2025-11-28 01:54:32.140532,Utilities,Vendor_Utilities_1,212.75,Expense,531.88,0.25,Unknown,2025-11,2025-11-01,48,2025,Q4,Friday,False,Low
+372,2025-11-28 22:21:32.140532,Food & Dining,Vendor_Dining_1,49.09,Expense,73.64,0.91,Unknown,2025-11,2025-11-01,48,2025,Q4,Friday,False,Low
+373,2025-11-29 01:07:32.140532,Food & Dining,Vendor_Dining_5,93.91,Expense,140.87,0.09,Unknown,2025-11,2025-11-01,48,2025,Q4,Saturday,True,Low
+374,2025-11-30 02:44:32.140532,Groceries,Vendor_Groceries_4,71.97,Expense,86.36,0.03,Unknown,2025-11,2025-11-01,48,2025,Q4,Sunday,True,Low
+376,2025-12-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2025-12,2025-12-01,49,2025,Q4,Monday,False,Low
+377,2025-12-01 08:53:32.140532,Subscriptions,Adobe,58.99,Expense,5.9,0.01,Unknown,2025-12,2025-12-01,49,2025,Q4,Monday,False,Low
+378,2025-12-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2025-12,2025-12-01,49,2025,Q4,Monday,False,Low
+379,2025-12-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-12,2025-12-01,49,2025,Q4,Monday,False,Medium
+380,2025-12-02 01:53:32.140532,Food & Dining,Vendor_Dining_1,66.83,Expense,100.25,0.17,Unknown,2025-12,2025-12-01,49,2025,Q4,Tuesday,False,Low
+381,2025-12-02 07:24:32.140532,Groceries,Vendor_Groceries_4,84.82,Expense,101.78,0.18,Unknown,2025-12,2025-12-01,49,2025,Q4,Tuesday,False,Low
+382,2025-12-03 17:29:32.140532,Food & Dining,Vendor_Dining_1,65.83,Expense,98.75,0.17,Unknown,2025-12,2025-12-01,49,2025,Q4,Wednesday,False,Low
+383,2025-12-03 18:18:32.140532,Transport,Vendor_Transportation_5,59.27,Expense,296.35,0.73,Unknown,2025-12,2025-12-01,49,2025,Q4,Wednesday,False,Low
+384,2025-12-06 07:37:32.140532,Shopping,Vendor_Shopping_4,113.9,Expense,227.8,0.1,Unknown,2025-12,2025-12-01,49,2025,Q4,Saturday,True,Low
+387,2025-12-06 22:21:32.140532,Groceries,Vendor_Groceries_2,64.12,Expense,76.94,0.88,Unknown,2025-12,2025-12-01,49,2025,Q4,Saturday,True,Low
+386,2025-12-07 00:09:32.140532,Groceries,Vendor_Groceries_1,60.4,Expense,72.48,0.6,Unknown,2025-12,2025-12-01,49,2025,Q4,Sunday,True,Low
+385,2025-12-07 00:51:32.140532,Groceries,Vendor_Groceries_4,120.03,Expense,144.04,0.97,Unknown,2025-12,2025-12-01,49,2025,Q4,Sunday,True,Low
+388,2025-12-08 20:06:32.140532,Entertainment,Vendor_Entertainment_2,160.26,Expense,48.08,0.74,Unknown,2025-12,2025-12-01,50,2025,Q4,Monday,False,Low
+389,2025-12-09 03:29:32.140532,Groceries,Vendor_Groceries_1,56.35,Expense,67.62,0.65,Unknown,2025-12,2025-12-01,50,2025,Q4,Tuesday,False,Low
+390,2025-12-10 21:26:32.140532,Food & Dining,Vendor_Dining_1,66.8,Expense,100.2,0.2,Unknown,2025-12,2025-12-01,50,2025,Q4,Wednesday,False,Low
+392,2025-12-12 20:59:32.140532,Utilities,Vendor_Utilities_5,295.61,Expense,739.03,0.39,Unknown,2025-12,2025-12-01,50,2025,Q4,Friday,False,Low
+393,2025-12-13 05:33:32.140532,Food & Dining,Vendor_Dining_3,31.27,Expense,46.91,0.73,Unknown,2025-12,2025-12-01,50,2025,Q4,Saturday,True,Low
+391,2025-12-13 06:12:32.140532,Entertainment,Vendor_Entertainment_4,142.63,Expense,42.79,0.37,Unknown,2025-12,2025-12-01,50,2025,Q4,Saturday,True,Low
+396,2025-12-13 17:03:32.140532,Utilities,Vendor_Utilities_3,157.75,Expense,394.38,0.25,Unknown,2025-12,2025-12-01,50,2025,Q4,Saturday,True,Low
+395,2025-12-13 17:06:32.140532,Entertainment,Vendor_Entertainment_5,101.89,Expense,30.57,0.11,Unknown,2025-12,2025-12-01,50,2025,Q4,Saturday,True,Low
+394,2025-12-14 06:49:32.140532,Utilities,Vendor_Utilities_4,192.07,Expense,480.17,0.93,Unknown,2025-12,2025-12-01,50,2025,Q4,Sunday,True,Low
+399,2025-12-16 18:34:32.140532,Transport,Vendor_Transportation_4,24.93,Expense,124.65,0.07,Unknown,2025-12,2025-12-01,51,2025,Q4,Tuesday,False,Low
+398,2025-12-17 00:16:32.140532,Food & Dining,Vendor_Dining_1,90.68,Expense,136.02,0.32,Unknown,2025-12,2025-12-01,51,2025,Q4,Wednesday,False,Low
+397,2025-12-17 05:21:32.140532,Shopping,Vendor_Shopping_5,121.13,Expense,242.26,0.87,Unknown,2025-12,2025-12-01,51,2025,Q4,Wednesday,False,Low
+400,2025-12-18 05:40:32.140532,Utilities,Vendor_Utilities_4,139.68,Expense,349.2,0.32,Unknown,2025-12,2025-12-01,51,2025,Q4,Thursday,False,Low
+402,2025-12-20 22:20:32.140532,Transport,Vendor_Transportation_3,50.66,Expense,253.3,0.34,Unknown,2025-12,2025-12-01,51,2025,Q4,Saturday,True,Low
+401,2025-12-21 03:00:32.140532,Groceries,Vendor_Groceries_5,85.93,Expense,103.12,0.07,Unknown,2025-12,2025-12-01,51,2025,Q4,Sunday,True,Low
+403,2025-12-23 04:32:32.140532,Healthcare,Vendor_Healthcare_4,225.2,Expense,22.52,0.8,Unknown,2025-12,2025-12-01,52,2025,Q4,Tuesday,False,Low
+404,2025-12-29 02:15:32.140532,Groceries,Vendor_Groceries_2,51.01,Expense,61.21,0.99,Unknown,2025-12,2025-12-01,1,2025,Q4,Monday,False,Low
+406,2025-12-30 19:13:32.140532,Groceries,Vendor_Groceries_1,143.52,Expense,172.22,0.48,Unknown,2025-12,2025-12-01,1,2025,Q4,Tuesday,False,Low
+407,2025-12-30 23:37:32.140532,Groceries,Vendor_Groceries_1,105.78,Expense,126.94,0.22,Unknown,2025-12,2025-12-01,1,2025,Q4,Tuesday,False,Low
+405,2025-12-31 00:46:32.140532,Food & Dining,Vendor_Dining_2,86.17,Expense,129.25,0.83,Unknown,2025-12,2025-12-01,1,2025,Q4,Wednesday,False,Low
+408,2025-12-31 23:22:32.140532,Groceries,Vendor_Groceries_5,50.22,Expense,60.26,0.78,Unknown,2025-12,2025-12-01,1,2025,Q4,Wednesday,False,Low
+409,2026-01-01 01:15:32.140532,Food & Dining,Vendor_Dining_4,34.46,Expense,51.69,0.54,Unknown,2026-01,2026-01-01,1,2026,Q1,Thursday,False,Low
+412,2026-01-01 08:53:32.140532,Subscriptions,Adobe,58.99,Expense,5.9,0.01,Unknown,2026-01,2026-01-01,1,2026,Q1,Thursday,False,Low
+411,2026-01-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2026-01,2026-01-01,1,2026,Q1,Thursday,False,Low
+414,2026-01-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-01,2026-01-01,1,2026,Q1,Thursday,False,Medium
+413,2026-01-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2026-01,2026-01-01,1,2026,Q1,Thursday,False,Low
+415,2026-01-02 01:44:32.140532,Groceries,Vendor_Groceries_1,99.38,Expense,119.26,0.62,Unknown,2026-01,2026-01-01,1,2026,Q1,Friday,False,Low
+416,2026-01-02 18:08:32.140532,Transport,Vendor_Transportation_4,22.75,Expense,113.75,0.25,Unknown,2026-01,2026-01-01,1,2026,Q1,Friday,False,Low
+417,2026-01-03 04:26:32.140532,Groceries,Vendor_Groceries_4,121.78,Expense,146.14,0.22,Unknown,2026-01,2026-01-01,1,2026,Q1,Saturday,True,Low
+418,2026-01-04 07:06:32.140532,Shopping,Vendor_Shopping_5,238.24,Expense,476.48,0.76,Unknown,2026-01,2026-01-01,1,2026,Q1,Sunday,True,Low
+419,2026-01-04 07:18:32.140532,Groceries,Vendor_Groceries_2,82.05,Expense,98.46,0.95,Unknown,2026-01,2026-01-01,1,2026,Q1,Sunday,True,Low
+420,2026-01-04 17:06:32.140532,Shopping,Vendor_Shopping_4,225.45,Expense,450.9,0.55,Unknown,2026-01,2026-01-01,1,2026,Q1,Sunday,True,Low
+421,2026-01-04 23:36:32.140532,Food & Dining,Vendor_Dining_2,32.24,Expense,48.36,0.76,Unknown,2026-01,2026-01-01,1,2026,Q1,Sunday,True,Low
+422,2026-01-05 02:39:32.140532,Transport,Vendor_Transportation_4,36.09,Expense,180.45,0.91,Unknown,2026-01,2026-01-01,2,2026,Q1,Monday,False,Low
+423,2026-01-05 21:23:32.140532,Groceries,Vendor_Groceries_1,95.51,Expense,114.61,0.49,Unknown,2026-01,2026-01-01,2,2026,Q1,Monday,False,Low
+424,2026-01-08 17:37:32.140532,Transport,Vendor_Transportation_4,28.99,Expense,144.95,0.01,Unknown,2026-01,2026-01-01,2,2026,Q1,Thursday,False,Low
+426,2026-01-09 01:07:32.140532,Healthcare,Vendor_Healthcare_5,197.28,Expense,19.73,0.72,Unknown,2026-01,2026-01-01,2,2026,Q1,Friday,False,Low
+425,2026-01-09 03:12:32.140532,Groceries,Vendor_Groceries_4,95.24,Expense,114.29,0.76,Unknown,2026-01,2026-01-01,2,2026,Q1,Friday,False,Low
+427,2026-01-10 00:28:32.140532,Entertainment,Vendor_Entertainment_2,93.94,Expense,28.18,0.06,Unknown,2026-01,2026-01-01,2,2026,Q1,Saturday,True,Low
+430,2026-01-11 18:40:32.140532,Food & Dining,Vendor_Dining_1,99.18,Expense,148.77,0.82,Unknown,2026-01,2026-01-01,2,2026,Q1,Sunday,True,Low
+428,2026-01-11 21:09:32.140532,Food & Dining,Vendor_Dining_3,39.66,Expense,59.49,0.34,Unknown,2026-01,2026-01-01,2,2026,Q1,Sunday,True,Low
+429,2026-01-11 21:44:32.140532,Groceries,Vendor_Groceries_2,82.44,Expense,98.93,0.56,Unknown,2026-01,2026-01-01,2,2026,Q1,Sunday,True,Low
+433,2026-01-13 21:42:32.140532,Groceries,Vendor_Groceries_2,129.98,Expense,155.98,0.02,Unknown,2026-01,2026-01-01,3,2026,Q1,Tuesday,False,Low
+432,2026-01-13 23:13:32.140532,Groceries,Vendor_Groceries_2,76.32,Expense,91.58,0.68,Unknown,2026-01,2026-01-01,3,2026,Q1,Tuesday,False,Low
+431,2026-01-14 04:36:32.140532,Groceries,Vendor_Groceries_2,127.06,Expense,152.47,0.94,Unknown,2026-01,2026-01-01,3,2026,Q1,Wednesday,False,Low
+434,2026-01-15 21:02:32.140532,Entertainment,Vendor_Entertainment_3,31.81,Expense,9.54,0.19,Unknown,2026-01,2026-01-01,3,2026,Q1,Thursday,False,Low
+436,2026-01-15 21:04:32.140532,Transport,Vendor_Transportation_4,49.1,Expense,245.5,0.9,Unknown,2026-01,2026-01-01,3,2026,Q1,Thursday,False,Low
+435,2026-01-16 02:40:32.140532,Groceries,Vendor_Groceries_2,145.25,Expense,174.3,0.75,Unknown,2026-01,2026-01-01,3,2026,Q1,Friday,False,Low
+438,2026-01-16 19:53:32.140532,Transport,Vendor_Transportation_5,40.23,Expense,201.15,0.77,Unknown,2026-01,2026-01-01,3,2026,Q1,Friday,False,Low
+437,2026-01-17 00:09:32.140532,Food & Dining,Vendor_Dining_2,75.64,Expense,113.46,0.36,Unknown,2026-01,2026-01-01,3,2026,Q1,Saturday,True,Low
+439,2026-01-17 21:28:32.140532,Transport,Vendor_Transportation_3,67.12,Expense,335.6,0.88,Unknown,2026-01,2026-01-01,3,2026,Q1,Saturday,True,Low
+440,2026-01-17 22:34:32.140532,Groceries,Vendor_Groceries_5,107.54,Expense,129.05,0.46,Unknown,2026-01,2026-01-01,3,2026,Q1,Saturday,True,Low
+441,2026-01-18 18:05:32.140532,Entertainment,Vendor_Entertainment_2,145.3,Expense,43.59,0.7,Unknown,2026-01,2026-01-01,3,2026,Q1,Sunday,True,Low
+443,2026-01-19 01:21:32.140532,Food & Dining,Vendor_Dining_5,76.15,Expense,114.23,0.85,Unknown,2026-01,2026-01-01,4,2026,Q1,Monday,False,Low
+442,2026-01-19 03:28:32.140532,Food & Dining,Vendor_Dining_3,40.05,Expense,60.07,0.95,Unknown,2026-01,2026-01-01,4,2026,Q1,Monday,False,Low
+446,2026-01-20 01:20:32.140532,Healthcare,Vendor_Healthcare_5,83.78,Expense,8.38,0.22,Unknown,2026-01,2026-01-01,4,2026,Q1,Tuesday,False,Low
+444,2026-01-20 04:29:32.140532,Food & Dining,Vendor_Dining_4,53.44,Expense,80.16,0.56,Unknown,2026-01,2026-01-01,4,2026,Q1,Tuesday,False,Low
+445,2026-01-20 06:30:32.140532,Food & Dining,Vendor_Dining_1,65.13,Expense,97.69,0.87,Unknown,2026-01,2026-01-01,4,2026,Q1,Tuesday,False,Low
+449,2026-01-20 19:01:32.140532,Food & Dining,Vendor_Dining_2,89.71,Expense,134.56,0.29,Unknown,2026-01,2026-01-01,4,2026,Q1,Tuesday,False,Low
+448,2026-01-20 19:48:32.140532,Food & Dining,Vendor_Dining_4,32.9,Expense,49.35,0.1,Unknown,2026-01,2026-01-01,4,2026,Q1,Tuesday,False,Low
+447,2026-01-21 01:45:32.140532,Healthcare,Vendor_Healthcare_1,453.83,Expense,45.38,0.17,Unknown,2026-01,2026-01-01,4,2026,Q1,Wednesday,False,Low
+452,2026-01-21 21:37:32.140532,Groceries,Vendor_Groceries_4,55.98,Expense,67.18,0.02,Unknown,2026-01,2026-01-01,4,2026,Q1,Wednesday,False,Low
+451,2026-01-21 23:31:32.140532,Groceries,Vendor_Groceries_3,55.23,Expense,66.28,0.77,Unknown,2026-01,2026-01-01,4,2026,Q1,Wednesday,False,Low
+450,2026-01-22 05:57:32.140532,Healthcare,Vendor_Healthcare_1,317.76,Expense,31.78,0.24,Unknown,2026-01,2026-01-01,4,2026,Q1,Thursday,False,Low
+454,2026-01-23 01:42:32.140532,Groceries,Vendor_Groceries_5,55.11,Expense,66.13,0.89,Unknown,2026-01,2026-01-01,4,2026,Q1,Friday,False,Low
+453,2026-01-23 06:02:32.140532,Groceries,Vendor_Groceries_1,68.12,Expense,81.74,0.88,Unknown,2026-01,2026-01-01,4,2026,Q1,Friday,False,Low
+456,2026-01-23 21:42:32.140532,Utilities,Vendor_Utilities_2,193.86,Expense,484.65,0.14,Unknown,2026-01,2026-01-01,4,2026,Q1,Friday,False,Low
+455,2026-01-24 05:00:32.140532,Utilities,Vendor_Utilities_4,268.8,Expense,672.0,0.2,Unknown,2026-01,2026-01-01,4,2026,Q1,Saturday,True,Low
+457,2026-01-25 07:11:32.140532,Food & Dining,Vendor_Dining_5,43.02,Expense,64.53,0.98,Unknown,2026-01,2026-01-01,4,2026,Q1,Sunday,True,Low
+458,2026-01-25 23:53:32.140532,Utilities,Vendor_Utilities_5,290.53,Expense,726.32,0.47,Unknown,2026-01,2026-01-01,4,2026,Q1,Sunday,True,Low
+460,2026-01-26 18:54:32.140532,Groceries,Vendor_Groceries_2,71.15,Expense,85.38,0.85,Unknown,2026-01,2026-01-01,5,2026,Q1,Monday,False,Low
+459,2026-01-27 07:49:32.140532,Transport,Vendor_Transportation_5,50.08,Expense,250.4,0.92,Unknown,2026-01,2026-01-01,5,2026,Q1,Tuesday,False,Low
+461,2026-01-28 23:01:32.140532,Entertainment,Vendor_Entertainment_3,173.17,Expense,51.95,0.83,Unknown,2026-01,2026-01-01,5,2026,Q1,Wednesday,False,Low
+462,2026-01-29 07:14:32.140532,Transport,Vendor_Transportation_4,50.64,Expense,253.2,0.36,Unknown,2026-01,2026-01-01,5,2026,Q1,Thursday,False,Low
+464,2026-01-30 03:24:32.140532,Food & Dining,Vendor_Dining_1,44.87,Expense,67.3,0.13,Unknown,2026-01,2026-01-01,5,2026,Q1,Friday,False,Low
+463,2026-01-30 05:58:32.140532,Transport,Vendor_Transportation_4,34.21,Expense,171.05,0.79,Unknown,2026-01,2026-01-01,5,2026,Q1,Friday,False,Low
+465,2026-01-30 16:54:32.140532,Utilities,Vendor_Utilities_4,148.88,Expense,372.2,0.12,Unknown,2026-01,2026-01-01,5,2026,Q1,Friday,False,Low
+466,2026-01-30 17:08:32.140532,Food & Dining,Vendor_Dining_2,76.88,Expense,115.32,0.12,Unknown,2026-01,2026-01-01,5,2026,Q1,Friday,False,Low
+467,2026-01-31 17:24:32.140532,Food & Dining,Vendor_Dining_5,96.3,Expense,144.45,0.7,Unknown,2026-01,2026-01-01,5,2026,Q1,Saturday,True,Low
+469,2026-01-31 20:47:32.140532,Entertainment,Vendor_Entertainment_4,83.46,Expense,25.04,0.54,Unknown,2026-01,2026-01-01,5,2026,Q1,Saturday,True,Low
+468,2026-02-01 06:28:32.140532,Groceries,Vendor_Groceries_2,114.8,Expense,137.76,0.2,Unknown,2026-02,2026-02-01,5,2026,Q1,Sunday,True,Low
+471,2026-02-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2026-02,2026-02-01,5,2026,Q1,Sunday,True,Low
+472,2026-02-01 08:53:32.140532,Subscriptions,Adobe,58.99,Expense,5.9,0.01,Unknown,2026-02,2026-02-01,5,2026,Q1,Sunday,True,Low
+473,2026-02-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2026-02,2026-02-01,5,2026,Q1,Sunday,True,Low
+474,2026-02-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-02,2026-02-01,5,2026,Q1,Sunday,True,Medium
+476,2026-02-02 03:29:32.140532,Transport,Vendor_Transportation_5,51.06,Expense,255.3,0.94,Unknown,2026-02,2026-02-01,6,2026,Q1,Monday,False,Low
+475,2026-02-02 07:44:32.140532,Groceries,Vendor_Groceries_2,51.34,Expense,61.61,0.66,Unknown,2026-02,2026-02-01,6,2026,Q1,Monday,False,Low
+478,2026-02-03 03:13:32.140532,Groceries,Vendor_Groceries_1,96.92,Expense,116.3,0.08,Unknown,2026-02,2026-02-01,6,2026,Q1,Tuesday,False,Low
+477,2026-02-03 07:47:32.140532,Transport,Vendor_Transportation_3,31.56,Expense,157.8,0.44,Unknown,2026-02,2026-02-01,6,2026,Q1,Tuesday,False,Low
+480,2026-02-05 03:31:32.140532,Transport,Vendor_Transportation_4,58.5,Expense,292.5,0.5,Unknown,2026-02,2026-02-01,6,2026,Q1,Thursday,False,Low
+479,2026-02-05 03:38:32.140532,Food & Dining,Vendor_Dining_2,50.97,Expense,76.45,0.03,Unknown,2026-02,2026-02-01,6,2026,Q1,Thursday,False,Low
+481,2026-02-06 00:51:32.140532,Food & Dining,Vendor_Dining_1,98.16,Expense,147.24,0.84,Unknown,2026-02,2026-02-01,6,2026,Q1,Friday,False,Low
+483,2026-02-07 21:13:32.140532,Entertainment,Vendor_Entertainment_4,32.02,Expense,9.61,0.98,Unknown,2026-02,2026-02-01,6,2026,Q1,Saturday,True,Low
+482,2026-02-07 21:44:32.140532,Groceries,Vendor_Groceries_2,149.39,Expense,179.27,0.61,Unknown,2026-02,2026-02-01,6,2026,Q1,Saturday,True,Low
+484,2026-02-09 22:52:32.140532,Food & Dining,Vendor_Dining_5,75.76,Expense,113.64,0.24,Unknown,2026-02,2026-02-01,7,2026,Q1,Monday,False,Low
+485,2026-02-10 03:23:32.140532,Groceries,Vendor_Groceries_5,148.74,Expense,178.49,0.26,Unknown,2026-02,2026-02-01,7,2026,Q1,Tuesday,False,Low
+486,2026-02-10 05:07:32.140532,Groceries,Vendor_Groceries_4,128.05,Expense,153.66,0.95,Unknown,2026-02,2026-02-01,7,2026,Q1,Tuesday,False,Low
+488,2026-02-11 16:59:32.140532,Groceries,Vendor_Groceries_4,87.08,Expense,104.5,0.92,Unknown,2026-02,2026-02-01,7,2026,Q1,Wednesday,False,Low
+487,2026-02-12 05:21:32.140532,Groceries,Vendor_Groceries_1,104.35,Expense,125.22,0.65,Unknown,2026-02,2026-02-01,7,2026,Q1,Thursday,False,Low
+491,2026-02-12 23:25:32.140532,Transport,Vendor_Transportation_2,67.7,Expense,338.5,0.3,Unknown,2026-02,2026-02-01,7,2026,Q1,Thursday,False,Low
+490,2026-02-13 01:13:32.140532,Healthcare,Vendor_Healthcare_3,308.41,Expense,30.84,0.59,Unknown,2026-02,2026-02-01,7,2026,Q1,Friday,False,Low
+489,2026-02-13 04:58:32.140532,Transport,Vendor_Transportation_5,35.47,Expense,177.35,0.53,Unknown,2026-02,2026-02-01,7,2026,Q1,Friday,False,Low
+492,2026-02-14 05:02:32.140532,Shopping,Vendor_Shopping_4,283.8,Expense,567.6,0.2,Unknown,2026-02,2026-02-01,7,2026,Q1,Saturday,True,Low
+493,2026-02-15 17:59:32.140532,Transport,Vendor_Transportation_5,45.61,Expense,228.05,0.39,Unknown,2026-02,2026-02-01,7,2026,Q1,Sunday,True,Low
+495,2026-02-15 21:13:32.140532,Food & Dining,Vendor_Dining_2,63.06,Expense,94.59,0.94,Unknown,2026-02,2026-02-01,7,2026,Q1,Sunday,True,Low
+494,2026-02-16 03:51:32.140532,Groceries,Vendor_Groceries_5,69.6,Expense,83.52,0.4,Unknown,2026-02,2026-02-01,8,2026,Q1,Monday,False,Low
+496,2026-02-16 16:57:32.140532,Groceries,Vendor_Groceries_4,63.27,Expense,75.92,0.73,Unknown,2026-02,2026-02-01,8,2026,Q1,Monday,False,Low
+498,2026-02-17 00:31:32.140532,Transport,Vendor_Transportation_5,49.52,Expense,247.6,0.48,Unknown,2026-02,2026-02-01,8,2026,Q1,Tuesday,False,Low
+497,2026-02-17 03:58:32.140532,Transport,Vendor_Transportation_5,42.16,Expense,210.8,0.84,Unknown,2026-02,2026-02-01,8,2026,Q1,Tuesday,False,Low
+500,2026-02-17 17:53:32.140532,Shopping,Vendor_Shopping_1,209.48,Expense,418.96,0.52,Unknown,2026-02,2026-02-01,8,2026,Q1,Tuesday,False,Low
+501,2026-02-18 01:13:32.140532,Healthcare,Vendor_Healthcare_3,103.56,Expense,10.36,0.44,Unknown,2026-02,2026-02-01,8,2026,Q1,Wednesday,False,Low
+499,2026-02-18 05:32:32.140532,Food & Dining,Vendor_Dining_2,39.76,Expense,59.64,0.24,Unknown,2026-02,2026-02-01,8,2026,Q1,Wednesday,False,Low
+502,2026-02-19 02:50:32.140532,Food & Dining,Vendor_Dining_5,42.97,Expense,64.45,0.03,Unknown,2026-02,2026-02-01,8,2026,Q1,Thursday,False,Low
+503,2026-02-20 21:25:32.140532,Food & Dining,Vendor_Dining_5,34.91,Expense,52.36,0.09,Unknown,2026-02,2026-02-01,8,2026,Q1,Friday,False,Low
+504,2026-02-23 23:20:32.140532,Food & Dining,Vendor_Dining_4,89.47,Expense,134.2,0.53,Unknown,2026-02,2026-02-01,9,2026,Q1,Monday,False,Low
+505,2026-02-25 02:56:32.140532,Transport,Vendor_Transportation_4,60.44,Expense,302.2,0.56,Unknown,2026-02,2026-02-01,9,2026,Q1,Wednesday,False,Low
+508,2026-02-25 21:58:32.140532,Food & Dining,Vendor_Dining_4,38.45,Expense,57.68,0.55,Unknown,2026-02,2026-02-01,9,2026,Q1,Wednesday,False,Low
+506,2026-02-26 03:20:32.140532,Groceries,Vendor_Groceries_1,101.82,Expense,122.18,0.18,Unknown,2026-02,2026-02-01,9,2026,Q1,Thursday,False,Low
+507,2026-02-26 06:25:32.140532,Entertainment,Vendor_Entertainment_5,54.75,Expense,16.43,0.25,Unknown,2026-02,2026-02-01,9,2026,Q1,Thursday,False,Low
+509,2026-02-27 18:22:32.140532,Groceries,Vendor_Groceries_3,56.26,Expense,67.51,0.74,Unknown,2026-02,2026-02-01,9,2026,Q1,Friday,False,Low
+510,2026-02-27 22:08:32.140532,Transport,Vendor_Transportation_2,74.33,Expense,371.65,0.67,Unknown,2026-02,2026-02-01,9,2026,Q1,Friday,False,Low
+512,2026-02-28 20:42:32.140532,Groceries,Vendor_Groceries_4,86.19,Expense,103.43,0.81,Unknown,2026-02,2026-02-01,9,2026,Q1,Saturday,True,Low
+511,2026-03-01 04:15:32.140532,Groceries,Vendor_Groceries_5,89.48,Expense,107.38,0.52,Unknown,2026-03,2026-03-01,9,2026,Q1,Sunday,True,Low
+517,2026-03-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-03,2026-03-01,9,2026,Q1,Sunday,True,Medium
+516,2026-03-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2026-03,2026-03-01,9,2026,Q1,Sunday,True,Low
+514,2026-03-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2026-03,2026-03-01,9,2026,Q1,Sunday,True,Low
+515,2026-03-01 08:53:32.140532,Subscriptions,Adobe,58.99,Expense,5.9,0.01,Unknown,2026-03,2026-03-01,9,2026,Q1,Sunday,True,Low
+518,2026-03-02 05:06:32.140532,Groceries,Vendor_Groceries_1,106.3,Expense,127.56,0.7,Unknown,2026-03,2026-03-01,10,2026,Q1,Monday,False,Low
+519,2026-03-02 18:53:32.140532,Groceries,Vendor_Groceries_1,147.7,Expense,177.24,0.3,Unknown,2026-03,2026-03-01,10,2026,Q1,Monday,False,Low
+520,2026-03-03 04:32:32.140532,Groceries,Vendor_Groceries_3,133.92,Expense,160.7,0.08,Unknown,2026-03,2026-03-01,10,2026,Q1,Tuesday,False,Low
+521,2026-03-03 17:22:32.140532,Groceries,Vendor_Groceries_4,116.37,Expense,139.64,0.63,Unknown,2026-03,2026-03-01,10,2026,Q1,Tuesday,False,Low
+522,2026-03-03 23:02:32.140532,Food & Dining,Vendor_Dining_4,75.72,Expense,113.58,0.28,Unknown,2026-03,2026-03-01,10,2026,Q1,Tuesday,False,Low
+523,2026-03-04 23:59:32.140532,Groceries,Vendor_Groceries_1,78.32,Expense,93.98,0.68,Unknown,2026-03,2026-03-01,10,2026,Q1,Wednesday,False,Low
+524,2026-03-05 04:09:32.140532,Groceries,Vendor_Groceries_1,69.28,Expense,83.14,0.72,Unknown,2026-03,2026-03-01,10,2026,Q1,Thursday,False,Low
+525,2026-03-05 20:05:32.140532,Food & Dining,Vendor_Dining_3,86.07,Expense,129.1,0.93,Unknown,2026-03,2026-03-01,10,2026,Q1,Thursday,False,Low
+527,2026-03-07 22:10:32.140532,Food & Dining,Vendor_Dining_3,73.55,Expense,110.32,0.45,Unknown,2026-03,2026-03-01,10,2026,Q1,Saturday,True,Low
+526,2026-03-08 01:25:32.140532,Groceries,Vendor_Groceries_1,63.42,Expense,76.1,0.58,Unknown,2026-03,2026-03-01,10,2026,Q1,Sunday,True,Low
+528,2026-03-08 18:48:32.140532,Entertainment,Vendor_Entertainment_3,94.84,Expense,28.45,0.16,Unknown,2026-03,2026-03-01,10,2026,Q1,Sunday,True,Low
+531,2026-03-09 20:10:32.140532,Groceries,Vendor_Groceries_5,118.23,Expense,141.88,0.77,Unknown,2026-03,2026-03-01,11,2026,Q1,Monday,False,Low
+530,2026-03-09 20:45:32.140532,Groceries,Vendor_Groceries_5,83.1,Expense,99.72,0.9,Unknown,2026-03,2026-03-01,11,2026,Q1,Monday,False,Low
+529,2026-03-09 23:11:32.140532,Groceries,Vendor_Groceries_1,66.39,Expense,79.67,0.61,Unknown,2026-03,2026-03-01,11,2026,Q1,Monday,False,Low
+532,2026-03-10 21:52:32.140532,Healthcare,Vendor_Healthcare_5,104.58,Expense,10.46,0.42,Unknown,2026-03,2026-03-01,11,2026,Q1,Tuesday,False,Low
+533,2026-03-11 20:30:32.140532,Utilities,Vendor_Utilities_1,219.35,Expense,548.38,0.65,Unknown,2026-03,2026-03-01,11,2026,Q1,Wednesday,False,Low
+534,2026-03-13 05:32:32.140532,Shopping,Vendor_Shopping_3,63.58,Expense,127.16,0.42,Unknown,2026-03,2026-03-01,11,2026,Q1,Friday,False,Low
+535,2026-03-13 19:45:32.140532,Groceries,Vendor_Groceries_5,98.51,Expense,118.21,0.49,Unknown,2026-03,2026-03-01,11,2026,Q1,Friday,False,Low
+536,2026-03-14 19:07:32.140532,Groceries,Vendor_Groceries_3,130.77,Expense,156.92,0.23,Unknown,2026-03,2026-03-01,11,2026,Q1,Saturday,True,Low
+537,2026-03-14 22:22:32.140532,Entertainment,Vendor_Entertainment_3,59.34,Expense,17.8,0.66,Unknown,2026-03,2026-03-01,11,2026,Q1,Saturday,True,Low
+538,2026-03-16 02:57:32.140532,Food & Dining,Vendor_Dining_1,93.43,Expense,140.15,0.57,Unknown,2026-03,2026-03-01,12,2026,Q1,Monday,False,Low
+539,2026-03-16 03:38:32.140532,Food & Dining,Vendor_Dining_1,52.3,Expense,78.45,0.7,Unknown,2026-03,2026-03-01,12,2026,Q1,Monday,False,Low
+541,2026-03-17 21:46:32.140532,Healthcare,Vendor_Healthcare_5,271.98,Expense,27.2,0.02,Unknown,2026-03,2026-03-01,12,2026,Q1,Tuesday,False,Low
+542,2026-03-18 02:45:32.140532,Groceries,Vendor_Groceries_5,58.18,Expense,69.82,0.82,Unknown,2026-03,2026-03-01,12,2026,Q1,Wednesday,False,Low
+540,2026-03-18 03:23:32.140532,Healthcare,Vendor_Healthcare_2,92.8,Expense,9.28,0.2,Unknown,2026-03,2026-03-01,12,2026,Q1,Wednesday,False,Low
+543,2026-03-19 01:07:32.140532,Healthcare,Vendor_Healthcare_2,75.56,Expense,7.56,0.44,Unknown,2026-03,2026-03-01,12,2026,Q1,Thursday,False,Low
+544,2026-03-19 20:22:32.140532,Transport,Vendor_Transportation_2,22.06,Expense,110.3,0.94,Unknown,2026-03,2026-03-01,12,2026,Q1,Thursday,False,Low
+545,2026-03-20 18:44:32.140532,Healthcare,Vendor_Healthcare_3,278.02,Expense,27.8,0.98,Unknown,2026-03,2026-03-01,12,2026,Q1,Friday,False,Low
+547,2026-03-21 18:25:32.140532,Groceries,Vendor_Groceries_4,141.46,Expense,169.75,0.54,Unknown,2026-03,2026-03-01,12,2026,Q1,Saturday,True,Low
+546,2026-03-21 19:16:32.140532,Shopping,Vendor_Shopping_5,274.68,Expense,549.36,0.32,Unknown,2026-03,2026-03-01,12,2026,Q1,Saturday,True,Low
+548,2026-03-22 19:43:32.140532,Food & Dining,Vendor_Dining_4,42.93,Expense,64.39,0.07,Unknown,2026-03,2026-03-01,12,2026,Q1,Sunday,True,Low
+549,2026-03-23 02:11:32.140532,Groceries,Vendor_Groceries_1,145.5,Expense,174.6,0.5,Unknown,2026-03,2026-03-01,13,2026,Q1,Monday,False,Low
+550,2026-03-23 22:11:32.140532,Groceries,Vendor_Groceries_4,117.86,Expense,141.43,0.14,Unknown,2026-03,2026-03-01,13,2026,Q1,Monday,False,Low
+552,2026-03-24 18:18:32.140532,Shopping,Vendor_Shopping_2,295.44,Expense,590.88,0.56,Unknown,2026-03,2026-03-01,13,2026,Q1,Tuesday,False,Low
+553,2026-03-25 00:24:32.140532,Groceries,Vendor_Groceries_4,142.23,Expense,170.68,0.77,Unknown,2026-03,2026-03-01,13,2026,Q1,Wednesday,False,Low
+551,2026-03-25 02:06:32.140532,Entertainment,Vendor_Entertainment_1,53.36,Expense,16.01,0.64,Unknown,2026-03,2026-03-01,13,2026,Q1,Wednesday,False,Low
+554,2026-03-25 20:52:32.140532,Food & Dining,Vendor_Dining_5,70.45,Expense,105.68,0.55,Unknown,2026-03,2026-03-01,13,2026,Q1,Wednesday,False,Low
+555,2026-03-28 00:23:32.140532,Transport,Vendor_Transportation_3,60.2,Expense,301.0,0.8,Unknown,2026-03,2026-03-01,13,2026,Q1,Saturday,True,Low
+556,2026-03-28 04:16:32.140532,Food & Dining,Vendor_Dining_4,61.95,Expense,92.93,0.05,Unknown,2026-03,2026-03-01,13,2026,Q1,Saturday,True,Low
+558,2026-03-29 16:57:32.140532,Transport,Vendor_Transportation_3,72.01,Expense,360.05,0.99,Unknown,2026-03,2026-03-01,13,2026,Q1,Sunday,True,Low
+557,2026-03-29 20:12:32.140532,Shopping,Vendor_Shopping_1,243.11,Expense,486.22,0.89,Unknown,2026-03,2026-03-01,13,2026,Q1,Sunday,True,Low
+559,2026-03-31 00:03:32.140532,Food & Dining,Vendor_Dining_2,41.97,Expense,62.95,0.03,Unknown,2026-03,2026-03-01,14,2026,Q1,Tuesday,False,Low
+560,2026-03-31 05:39:32.140532,Food & Dining,Vendor_Dining_3,47.79,Expense,71.69,0.21,Unknown,2026-03,2026-03-01,14,2026,Q1,Tuesday,False,Low
+561,2026-03-31 19:47:32.140532,Groceries,Vendor_Groceries_2,85.33,Expense,102.4,0.67,Unknown,2026-03,2026-03-01,14,2026,Q1,Tuesday,False,Low
+562,2026-04-01 00:04:32.140532,Entertainment,Vendor_Entertainment_1,170.28,Expense,51.08,0.72,Unknown,2026-04,2026-04-01,14,2026,Q2,Wednesday,False,Low
+563,2026-04-01 03:08:32.140532,Food & Dining,Vendor_Dining_5,62.83,Expense,94.25,0.17,Unknown,2026-04,2026-04-01,14,2026,Q2,Wednesday,False,Low
+565,2026-04-01 08:53:32.140532,Subscriptions,Netflix,15.99,Expense,1.6,0.01,Unknown,2026-04,2026-04-01,14,2026,Q2,Wednesday,False,Low
+566,2026-04-01 08:53:32.140532,Subscriptions,Adobe,58.99,Expense,5.9,0.01,Unknown,2026-04,2026-04-01,14,2026,Q2,Wednesday,False,Low
+567,2026-04-01 08:53:32.140532,Subscriptions,Gym,45.0,Expense,4.5,0.0,Unknown,2026-04,2026-04-01,14,2026,Q2,Wednesday,False,Low
+568,2026-04-01 08:53:32.140532,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-04,2026-04-01,14,2026,Q2,Wednesday,False,Medium
+570,2026-04-03 02:29:32.140532,Food & Dining,Vendor_Dining_1,45.57,Expense,68.36,0.43,Unknown,2026-04,2026-04-01,14,2026,Q2,Friday,False,Low
+569,2026-04-03 06:06:32.140532,Groceries,Vendor_Groceries_4,55.66,Expense,66.79,0.34,Unknown,2026-04,2026-04-01,14,2026,Q2,Friday,False,Low
+571,2026-04-03 07:30:32.140532,Transport,Vendor_Transportation_4,25.25,Expense,126.25,0.75,Unknown,2026-04,2026-04-01,14,2026,Q2,Friday,False,Low
+574,2026-04-04 20:18:32.140532,Entertainment,Vendor_Entertainment_2,72.62,Expense,21.79,0.38,Unknown,2026-04,2026-04-01,14,2026,Q2,Saturday,True,Low
+573,2026-04-05 01:55:32.140532,Groceries,Vendor_Groceries_2,104.13,Expense,124.96,0.87,Unknown,2026-04,2026-04-01,14,2026,Q2,Sunday,True,Low
+572,2026-04-05 07:49:32.140532,Entertainment,Vendor_Entertainment_2,77.34,Expense,23.2,0.66,Unknown,2026-04,2026-04-01,14,2026,Q2,Sunday,True,Low
+575,2026-04-05 23:59:32.140532,Groceries,Vendor_Groceries_1,134.99,Expense,161.99,0.01,Unknown,2026-04,2026-04-01,14,2026,Q2,Sunday,True,Low
+576,2026-04-07 00:02:32.140532,Groceries,Vendor_Groceries_1,80.61,Expense,96.73,0.39,Unknown,2026-04,2026-04-01,15,2026,Q2,Tuesday,False,Low
+577,2026-04-07 22:14:32.140532,Groceries,Vendor_Groceries_5,108.29,Expense,129.95,0.71,Unknown,2026-04,2026-04-01,15,2026,Q2,Tuesday,False,Low
+579,2026-04-09 21:33:32.140532,Utilities,Vendor_Utilities_1,193.85,Expense,484.62,0.15,Unknown,2026-04,2026-04-01,15,2026,Q2,Thursday,False,Low
+578,2026-04-10 05:49:32.140532,Groceries,Vendor_Groceries_2,84.35,Expense,101.22,0.65,Unknown,2026-04,2026-04-01,15,2026,Q2,Friday,False,Low
+580,2026-04-11 03:18:32.140532,Transport,Vendor_Transportation_3,38.06,Expense,190.3,0.94,Unknown,2026-04,2026-04-01,15,2026,Q2,Saturday,True,Low
+582,2026-04-11 21:16:32.140532,Transport,Vendor_Transportation_4,30.93,Expense,154.65,0.07,Unknown,2026-04,2026-04-01,15,2026,Q2,Saturday,True,Low
+583,2026-04-12 01:23:32.140532,Food & Dining,Vendor_Dining_5,42.73,Expense,64.09,0.27,Unknown,2026-04,2026-04-01,15,2026,Q2,Sunday,True,Low
+581,2026-04-12 04:21:32.140532,Transport,Vendor_Transportation_2,51.63,Expense,258.15,0.37,Unknown,2026-04,2026-04-01,15,2026,Q2,Sunday,True,Low
+584,2026-04-12 18:55:32.140532,Healthcare,Vendor_Healthcare_3,499.11,Expense,49.91,0.89,Unknown,2026-04,2026-04-01,15,2026,Q2,Sunday,True,Low
+585,2026-04-13 00:08:32.140532,Transport,Vendor_Transportation_1,29.07,Expense,145.35,0.93,Unknown,2026-04,2026-04-01,16,2026,Q2,Monday,False,Low
+586,2026-04-14 17:00:32.140532,Food & Dining,Vendor_Dining_1,84.66,Expense,126.99,0.34,Unknown,2026-04,2026-04-01,16,2026,Q2,Tuesday,False,Low
+587,2026-04-14 21:34:32.140532,Entertainment,Vendor_Entertainment_4,34.09,Expense,10.23,0.91,Unknown,2026-04,2026-04-01,16,2026,Q2,Tuesday,False,Low
+588,2026-04-16 01:41:32.140532,Transport,Vendor_Transportation_2,68.33,Expense,341.65,0.67,Unknown,2026-04,2026-04-01,16,2026,Q2,Thursday,False,Low
+591,2026-04-16 19:57:32.140532,Entertainment,Vendor_Entertainment_4,195.66,Expense,58.7,0.34,Unknown,2026-04,2026-04-01,16,2026,Q2,Thursday,False,Low
+590,2026-04-17 04:11:32.140532,Groceries,Vendor_Groceries_2,104.5,Expense,125.4,0.5,Unknown,2026-04,2026-04-01,16,2026,Q2,Friday,False,Low
+589,2026-04-17 05:52:32.140532,Transport,Vendor_Transportation_4,69.06,Expense,345.3,0.94,Unknown,2026-04,2026-04-01,16,2026,Q2,Friday,False,Low
+593,2026-04-17 19:32:32.140532,Groceries,Vendor_Groceries_1,96.72,Expense,116.06,0.28,Unknown,2026-04,2026-04-01,16,2026,Q2,Friday,False,Low
+592,2026-04-17 20:13:32.140532,Food & Dining,Vendor_Dining_5,33.0,Expense,49.5,0.0,Unknown,2026-04,2026-04-01,16,2026,Q2,Friday,False,Low
+594,2026-04-17 23:10:32.140532,Food & Dining,Vendor_Dining_4,45.37,Expense,68.05,0.63,Unknown,2026-04,2026-04-01,16,2026,Q2,Friday,False,Low
+596,2026-04-19 02:59:32.140532,Healthcare,Vendor_Healthcare_1,347.98,Expense,34.8,0.02,Unknown,2026-04,2026-04-01,16,2026,Q2,Sunday,True,Low
+595,2026-04-19 06:21:32.140532,Food & Dining,Vendor_Dining_1,62.11,Expense,93.16,0.89,Unknown,2026-04,2026-04-01,16,2026,Q2,Sunday,True,Low
+597,2026-04-20 04:51:32.140532,Transport,Vendor_Transportation_4,21.49,Expense,107.45,0.51,Unknown,2026-04,2026-04-01,17,2026,Q2,Monday,False,Low
