@@ -85,14 +85,14 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     df["date"] = pd.to_datetime(df["date"], dayfirst=False, errors="coerce")
     invalid_dates = df["date"].isna().sum()
     if invalid_dates > 0:
-        print(f"  [Cleaner] ⚠️  Dropped {invalid_dates} rows with unparseable dates.")
+        print(f"  [Cleaner] [WARN] Dropped {invalid_dates} rows with unparseable dates.")
     df = df.dropna(subset=["date"])
 
     # ── Step 4: Clean amounts ───────────────────────────────────────────────────
     df["amount"] = pd.to_numeric(df["amount"], errors="coerce").abs()
     invalid_amounts = df["amount"].isna().sum()
     if invalid_amounts > 0:
-        print(f"  [Cleaner] ⚠️  Dropped {invalid_amounts} rows with non-numeric amounts.")
+        print(f"  [Cleaner] [WARN] Dropped {invalid_amounts} rows with non-numeric amounts.")
     df = df.dropna(subset=["amount"])
     df = df[df["amount"] > 0]  # remove zero-amount rows
 
@@ -121,7 +121,7 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     df = df.drop_duplicates(subset=["date", "amount", "category"])
     dupes = before - len(df)
     if dupes > 0:
-        print(f"  [Cleaner] 🗑️  Removed {dupes} duplicate rows.")
+        print(f"  [Cleaner] [INFO] Removed {dupes} duplicate rows.")
 
     # ── Step 8: Derived time columns (Phase 5 Feature Engineering) ─────────────
     df["month"]       = df["date"].dt.to_period("M").astype(str)
@@ -144,5 +144,5 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     # ── Step 10: Sort and reset index ───────────────────────────────────────────
     df = df.sort_values("date").reset_index(drop=True)
 
-    print(f"  [Cleaner] ✅ Clean dataset: {len(df)} rows, {df['category'].nunique()} categories.")
+    print(f"  [Cleaner] [OK] Clean dataset: {len(df)} rows, {df['category'].nunique()} categories.")
     return df

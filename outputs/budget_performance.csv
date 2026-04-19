@@ -1,6 +1,6 @@
 Category,Budget (₹),Actual (₹),Variance (₹),% Used,Status
-Healthcare,2000,7806.75,5806.75,390.3,🔴 Over
-Entertainment,3000,5078.35,2078.35,169.3,🔴 Over
-Transport,4000,4846.16,846.16,121.2,🔴 Over
-Shopping,6000,5649.74,-350.26,94.2,🟢 Under
-Food & Dining,8000,6981.32,-1018.68,87.3,🟢 Under
+Healthcare,2000,5254.09,3254.09,262.7,🔴 Over
+Entertainment,3000,6259.15,3259.15,208.6,🔴 Over
+Transport,4000,4699.77,699.77,117.5,🔴 Over
+Shopping,6000,6172.67,172.67,102.9,🔴 Over
+Food & Dining,8000,6189.17,-1810.83,77.4,🟢 Under

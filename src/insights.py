@@ -14,14 +14,14 @@ from typing import List, Dict, Tuple
 class Insight:
     """A single financial insight with severity level."""
 
-    LEVELS = {"info": "💡", "warning": "⚠️", "critical": "🚨", "positive": "✅"}
+    LEVELS = {"info": "[i]", "warning": "[!]", "critical": "[X]", "positive": "[OK]"}
 
     def __init__(self, title: str, body: str, level: str = "info", category: str = "General"):
         self.title    = title
         self.body     = body
         self.level    = level
         self.category = category
-        self.icon     = self.LEVELS.get(level, "💡")
+        self.icon     = self.LEVELS.get(level, "i")
 
     def __repr__(self):
         return f"{self.icon} [{self.level.upper()}] {self.title}: {self.body}"
@@ -61,7 +61,7 @@ class InsightsEngine:
         level = "warning" if pct > 40 else "info"
         return [Insight(
             f"Top Spending: {top}",
-            f"'{top}' consumes {pct:.1f}% of total spend (₹{cat.max():,.0f}). "
+            f"'{top}' consumes {pct:.1f}% of total spend (Rs {cat.max():,.0f}). "
             + ("Consider reviewing recurring costs here." if pct > 40 else "This is within healthy range."),
             level, "Spending Pattern"
         )]
@@ -88,7 +88,7 @@ class InsightsEngine:
         top_a = anomalies.nlargest(1, "amount").iloc[0]
         return [Insight(
             f"{len(anomalies)} Anomaly Transaction(s)",
-            f"Largest outlier: ₹{top_a['amount']:,.0f} on {top_a['date'].strftime('%d %b %Y')} ({top_a['category']}). These may be one-time events or errors.",
+            f"Largest outlier: Rs {top_a['amount']:,.0f} on {top_a['date'].strftime('%d %b %Y')} ({top_a['category']}). These may be one-time events or errors.",
             "warning", "Risk"
         )]
 
@@ -103,7 +103,7 @@ class InsightsEngine:
         if ratio > 1.5:
             return [Insight(
                 "Weekend Overspending",
-                f"You spend {ratio:.1f}× more on weekends (avg ₹{weekend_avg:,.0f}) vs weekdays (₹{weekday_avg:,.0f}). Consider setting a weekend budget.",
+                f"You spend {ratio:.1f}x more on weekends (avg Rs {weekend_avg:,.0f}) vs weekdays (Rs {weekday_avg:,.0f}). Consider setting a weekend budget.",
                 "warning", "Behavior"
             )]
         return [Insight("Balanced Weekly Spend", "Weekday vs weekend spending is well-balanced.", "positive", "Behavior")]
@@ -119,19 +119,19 @@ class InsightsEngine:
             if pct > 100:
                 results.append(Insight(
                     f"Over Budget: {cat}",
-                    f"Spent ₹{spent:,.0f} vs ₹{budget:,.0f} budget ({pct:.0f}% used). Cut back by ₹{spent-budget:,.0f}.",
+                    f"Spent Rs {spent:,.0f} vs Rs {budget:,.0f} budget ({pct:.0f}% used). Cut back by Rs {spent-budget:,.0f}.",
                     "critical", "Budget"
                 ))
             elif pct > 85:
                 results.append(Insight(
                     f"Near Limit: {cat}",
-                    f"At {pct:.0f}% of your ₹{budget:,.0f} budget. Only ₹{budget-spent:,.0f} remaining.",
+                    f"At {pct:.0f}% of your Rs {budget:,.0f} budget. Only Rs {budget-spent:,.0f} remaining.",
                     "warning", "Budget"
                 ))
             else:
                 results.append(Insight(
                     f"On Track: {cat}",
-                    f"Used {pct:.0f}% of ₹{budget:,.0f} budget. ₹{budget-spent:,.0f} available.",
+                    f"Used {pct:.0f}% of Rs {budget:,.0f} budget. Rs {budget-spent:,.0f} available.",
                     "positive", "Budget"
                 ))
         return results
@@ -140,7 +140,7 @@ class InsightsEngine:
         """Estimate savings if income is not present (compare spend to benchmark)."""
         monthly = self.df.groupby("month_dt")["amount"].sum()
         avg_monthly = monthly.mean()
-        # Use ₹50,000 as typical income benchmark for insights
+        # Use Rs 50,000 as typical income benchmark for insights
         INCOME_ESTIMATE = 50_000
         savings_rate = max(0, (INCOME_ESTIMATE - avg_monthly) / INCOME_ESTIMATE * 100)
         if savings_rate < 10:
@@ -158,7 +158,7 @@ class InsightsEngine:
             if len(grp) >= 3:
                 slope = np.polyfit(range(len(grp)), grp["amount"].values, 1)[0]
                 if slope > 100:
-                    creeping.append(f"{cat} (+₹{slope:.0f}/month)")
+                    creeping.append(f"{cat} (+Rs {slope:.0f}/month)")
         if creeping:
             return [Insight(
                 "Subscription Creep Detected",

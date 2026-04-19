@@ -1,108 +1,99 @@
-# DataScience-Based Autonomous Wealth & Expense Intelligence Ecosystem
+# 💎 AuraFi: Autonomous Wealth & Expense Intelligence Ecosystem
 
-A **two-tier** expense intelligence project — a Basic Expense Tracker satisfying the core Data Science problem statement, plus **AuraFi V2**, an industry-grade AI extension.
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
----
-
-## 📁 Project Structure
-
-```
-├── basic_tracker.py           # ✅ Core problem statement implementation
-├── app.py                     # 🚀 AuraFi V2 — Advanced AI Extension
-├── ai_agents.py               # Multi-Agent AI system (AuraFi)
-├── data_generator.py          # Synthetic data + live transaction simulator
-├── historical_transactions.csv # Pre-generated dataset (12 months)
-├── aura_watch_model.pkl       # Trained Isolation Forest anomaly model
-├── requirements.txt
-├── BLUEPRINT.md               # AuraFi architectural blueprint
-└── README.md
-```
+**AuraFi** is a high-performance FinTech intelligence platform that moves beyond basic expense tracking into **Autonomous Financial Wellness**. It combines a robust 9-phase Data Science pipeline with a Multi-Agent AI architecture to detect anomalies, forecast cash flow, and prevent "debt traps" in real-time.
 
 ---
 
-## ✅ Part 1: Basic Expense Tracker (`basic_tracker.py`)
+## 🚀 Core Intelligence: The Multi-Agent System
 
-> **Directly addresses the problem statement requirements.**
+AuraFi operates using an ensemble of autonomous agents, each specializing in a critical financial domain:
 
-### Features
-| Requirement | Implementation |
-|---|---|
-| Input expense data | CSV upload, manual form entry, or sample data |
-| Clean & analyze using Pandas | Full cleaning, type inference, null handling |
-| Charts using Matplotlib/Seaborn | Bar, Pie, Line, Stacked Bar, Histogram, Heatmap |
-| Category-wise spending | Horizontal bar + pie charts per category |
-| Monthly trends | Line chart + stacked category-month breakdown |
-| Insights | Auto-generated text insights + anomaly flags |
-| Streamlit dashboard | Full responsive dashboard with sidebar filters |
-
-### Run
-```bash
-streamlit run basic_tracker.py
-```
+| Agent | Module | Intelligence Primary Task |
+| :--- | :--- | :--- |
+| **Aura-Watch** | Anomaly AI | Isolation Forest-based detection of fraudulent or unusual transactions. |
+| **Aura-Brain** | Forecaster AI | Time-series projection of end-of-month liquidity and spending velocity. |
+| **Aura-Wellness**| Health AI | Proprietary scoring (0-100) for spending behavior and debt-trap prevention. |
+| **Aura-Action** | Prescriptive AI | Generating autonomous recommendations (e.g., auto-sweep, budget reallocation). |
+| **Aura-Green** | ESG AI | Mapping transaction categories to real-world carbon footprint (kg CO₂). |
 
 ---
 
-## 🚀 Part 2: AuraFi V2 — Advanced AI Extension (`app.py`)
+## 🛠️ The 9-Phase Data Science Pipeline
 
-> **An autonomous, multi-agent FinTech intelligence platform — far beyond the basic problem statement.**
+This project demonstrates a complete, end-to-end industrial Data Science workflow:
 
-### Architecture
+1.  **Phase 1: Setup** — Automated environment validation & folder provisioning.
+2.  **Phase 2: Ingestion** — Synthetic engine generating 12+ months of non-linear financial history.
+3.  **Phase 3: Cleaning** — Robust cleaning (src.cleaner) with null imputation and date normalization.
+4.  **Phase 4: EDA** — Exploratory Data Analysis covering distributions, variance, and outliers.
+5.  **Phase 5: Feature Engineering** — Calculating Z-scores, rolling averages, and spending tiers.
+6.  **Phase 6: Statistics** — Aggregated trends, MoM growth, and category density analysis.
+7.  **Phase 7: Visualization** — Generation of 10+ professional charts (Matplotlib/Seaborn).
+8.  **Phase 8: Insights Agent** — Rule-based and ML-driven automated financial reporting.
+9.  **Phase 9: Export** — Production-ready CSV exports and dashboard-ready artifacts.
 
-```
-[ Synthetic Data Webhook ] --> { FastAPI Ingestion Engine }
-                                        |
-                                        v
-                          [ Real-Time Data Stream Bus ]
-                               /                 \
-                              v                   v
-                [ Anomaly Detection AI ]   [ Time-Series Forecaster AI ]
-                              \                   /
-                               v                 v
-                       [ AuraFi V2 Dashboard (Streamlit) ]
-```
+---
 
-### Multi-Agent System
-| Agent | Role |
-|---|---|
-| **Aura-Watch** | Isolation Forest anomaly detection on live transactions |
-| **Aura-Brain** | Time-series cash-flow forecasting (end-of-month projection) |
-| **Aura-Action** | Prescriptive actions: auto-sweep, debt-freeze recommendations |
-| **Aura-Wellness** | Financial health score (0–100) + debt-trap prevention |
-| **Aura-Green** | Carbon footprint tracker mapped to transaction categories |
+## 🎨 Visual Intelligence Gallery
 
-### Advanced Features
-- 🔴 **Real-Time Streaming Dashboard** — simulated webhook injects live transactions
-- 📈 **Cash-Flow Forecasting** — predicts end-of-month spend from historical patterns
-- 🌍 **Green Ledger** — CO₂ footprint analysis per spending category
-- 🧠 **Debt-Trap AI** — financial wellness gauge with prescriptive autonomous actions
-- 💚 **Charity Roundup** — auto-rounds transactions and tracks micro-donations
+The system automatically generates high-fidelity visualizations. View the full gallery in the `outputs/` directory.
 
-### Run
-```bash
-streamlit run app.py
+![Summary Dashboard](outputs/0_summary_dashboard.png)
+*Example: The Holistic Financial Intelligence Dashboard*
+
+---
+
+## 📂 Repository Structure
+
+```text
+├── app.py                     # 💎 AuraFi Premium Dashboard (Main Entry)
+├── main.py                    # ⚙️ CLI Analysis Pipeline (End-to-End)
+├── src/                       # 🧠 Core Intelligence Logic
+│   ├── cleaner.py             # Data Normalization Engine
+│   ├── analyzer.py            # Feature Engineering & Stats
+│   ├── visualizer.py          # High-Fidelity Charting Engine
+│   └── insights.py            # Prescriptive Advice Engine
+├── ai_agents.py               # 🤖 Multi-Agent AI System
+├── data_generator.py          # 🎲 Non-Linear Transaction Simulator
+├── data/                      # 💾 Raw and Cleaned Datasets
+├── outputs/                   # 📊 Generated Reports & Visuals
+└── requirements.txt           # 📦 Dependency Manifest
 ```
 
 ---
 
 ## ⚡ Quick Start
 
+### 1. Installation
 ```bash
-# 1. Install dependencies
 pip install -r requirements.txt
+```
 
-# 2. Generate historical data (if CSV is missing)
-python data_generator.py
+### 2. Run the Full Analysis Pipeline
+Generate fresh data, clean it, train the ML model, and export reports:
+```bash
+python main.py
+```
 
-# 3. Run the Basic Tracker
-streamlit run basic_tracker.py
-
-# 4. Run AuraFi V2 (Advanced)
-streamlit run app.py
+### 3. Launch the Premium Dashboard
+Experience AuraFi’s interactive glassmorphic UI:
+```bash
+python -m streamlit run app.py
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## 🏆 Industry Relevance
+AuraFi replicates advanced features found in leading FinTech platforms:
+- **CRED/Mint Style**: Personalized insights and spending velocity.
+- **Razorpay/Stripe Style**: Anomaly detection and fraud risk scoring.
+- **Revolut Style**: ESG tracking and subscription management.
 
-**Basic Tracker:** Pandas · Matplotlib · Seaborn · Streamlit  
-**AuraFi V2:** + Plotly · Scikit-learn · NumPy · Joblib
+---
+
+Designed with ❤️ for High-Performance Financial Intelligence.

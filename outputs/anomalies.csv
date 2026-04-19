@@ -1,13 +1,14 @@
 id,date,category,description,amount,type,carbon_score,charity_roundup,payment_method,month,month_dt,week,year,quarter,day_of_week,is_weekend,spending_tier,cumulative_spend,rolling_7d,z_score,is_anomaly,vs_cat_avg_pct
-14,2025-05-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-05,2025-05-01,18,2025,Q2,Thursday,False,Medium,2985.35,370.11,6.29,True,0.0
-67,2025-06-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Medium,10786.679999999998,422.33,6.29,True,0.0
-110,2025-07-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-07,2025-07-01,27,2025,Q3,Tuesday,False,Medium,17296.449999999997,405.17,6.29,True,0.0
-160,2025-08-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-08,2025-08-01,31,2025,Q3,Friday,False,Medium,24267.539999999986,371.42,6.29,True,0.0
-202,2025-09-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-09,2025-09-01,36,2025,Q3,Monday,False,Medium,29625.909999999993,370.52,6.29,True,0.0
-248,2025-10-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-10,2025-10-01,40,2025,Q4,Wednesday,False,Medium,35430.05,333.76,6.29,True,0.0
-295,2025-11-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-11,2025-11-01,44,2025,Q4,Saturday,True,Medium,42102.68999999999,329.03,6.29,True,0.0
-345,2025-12-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-12,2025-12-01,49,2025,Q4,Monday,False,Medium,48200.47000000002,350.26,6.29,True,0.0
-385,2026-01-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-01,2026-01-01,1,2026,Q1,Thursday,False,Medium,54214.48,406.69,6.29,True,0.0
-437,2026-02-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-02,2026-02-01,5,2026,Q1,Sunday,True,Medium,60110.73,370.55,6.29,True,0.0
-472,2026-03-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-03,2026-03-01,9,2026,Q1,Sunday,True,Medium,65006.950000000004,359.42,6.29,True,0.0
-518,2026-04-01 08:59:56.120741,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-04,2026-04-01,14,2026,Q2,Wednesday,False,Medium,70573.08000000005,330.56,6.29,True,0.0
+15,2025-05-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-05,2025-05-01,18,2025,Q2,Thursday,False,Medium,3064.09,370.86,6.351,True,0.0
+58,2025-06-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-06,2025-06-01,22,2025,Q2,Sunday,True,Medium,9800.5,330.67,6.351,True,0.0
+59,2025-06-02 07:16:08.887401,Shopping,Vendor_Shopping_4,1140.55,Expense,2281.1,0.45,Unknown,2025-06,2025-06-01,23,2025,Q2,Monday,False,Medium,11129.819999999998,487.34,3.833,True,472.8
+94,2025-07-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-07,2025-07-01,27,2025,Q3,Tuesday,False,Medium,15449.540000000005,345.94,6.351,True,0.0
+140,2025-08-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-08,2025-08-01,31,2025,Q3,Friday,False,Medium,21051.340000000007,341.07,6.351,True,0.0
+184,2025-09-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-09,2025-09-01,36,2025,Q3,Monday,False,Medium,26912.570000000025,346.3,6.351,True,0.0
+232,2025-10-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-10,2025-10-01,40,2025,Q4,Wednesday,False,Medium,33167.120000000024,350.56,6.351,True,0.0
+290,2025-11-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-11,2025-11-01,44,2025,Q4,Saturday,True,Medium,40598.61000000006,364.01,6.351,True,0.0
+337,2025-12-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2025-12,2025-12-01,49,2025,Q4,Monday,False,Medium,46449.88000000004,356.82,6.351,True,0.0
+392,2026-01-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-01,2026-01-01,1,2026,Q1,Thursday,False,Medium,53546.38000000001,361.97,6.351,True,0.0
+448,2026-02-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-02,2026-02-01,5,2026,Q1,Sunday,True,Medium,60890.66,337.03,6.351,True,0.0
+477,2026-03-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-03,2026-03-01,9,2026,Q1,Sunday,True,Medium,65372.32999999999,369.0,6.351,True,0.0
+530,2026-04-01 09:55:08.887401,Housing,Property Management,1800.0,Expense,900.0,0.0,Unknown,2026-04,2026-04-01,14,2026,Q2,Wednesday,False,Medium,72127.93999999997,350.41,6.351,True,0.0

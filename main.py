@@ -133,8 +133,7 @@ print(f"  Median Transaction  : Rs {summary['median_transaction']:,.2f}")
 print(f"  Categories          : {summary['unique_categories']}")
 print(f"  Months              : {summary['unique_months']}")
 
-print("\n  📋 Describe Amount:")
-print(analyzer.describe_amount().to_string(float_format=lambda x: f"₹{x:,.2f}"))
+print(analyzer.describe_amount().to_string(float_format=lambda x: f"Rs {x:,.2f}"))
 
 # ── PHASE 5: Feature Engineering ────────────────────────────────────────────────
 phase_header(5, "Feature Engineering")
@@ -152,20 +151,20 @@ print(f"  Anomalies detected  : {n_anomalies} transactions (|z| > 2.5)")
 # ── PHASE 6: Statistical Analysis ───────────────────────────────────────────────
 phase_header(6, "Statistical Analysis")
 
-print("\n  📊 Category Totals:")
+print("\n  [STAT] Category Totals:")
 cat_df = analyzer.category_totals()
 print(cat_df.to_string(index=False))
 
-print("\n  📅 Monthly Trends:")
+print("\n  [TREND] Monthly Trends:")
 monthly_df = analyzer.monthly_trends()
 print(monthly_df[["month","Total","MoM_Change_%"]].to_string(index=False))
 
-print("\n  📆 Weekend vs Weekday:")
+print("\n  [ANALYSIS] Weekend vs Weekday:")
 wk = analyzer.weekend_vs_weekday()
 for k, v in wk.items():
-    print(f"     {k}: ₹{v:,.2f}")
+    print(f"     {k}: Rs {v:,.2f}")
 
-print("\n  🔍 Subscription Creep:")
+print("\n  [WATCH] Subscription Creep:")
 creep = analyzer.detect_subscription_creep()
 print(creep.to_string(index=False))
 
@@ -177,12 +176,12 @@ BUDGETS = {
     "Entertainment" : 3000,
     "Healthcare"    : 2000,
 }
-print("\n  💳 Budget Performance:")
+print("\n  [BUDGET] Budget Performance:")
 budget_df = analyzer.budget_performance(BUDGETS)
 print(budget_df.to_string(index=False))
 
 # ── PHASE 7: Visualization ───────────────────────────────────────────────────────
-phase_header(7, "Visualization (Generating Charts → outputs/)")
+phase_header(7, "Visualization (Generating Charts -> outputs/)")
 
 from src.visualizer import ExpenseVisualizer
 
