@@ -415,7 +415,7 @@ if "live_anomaly" not in st.session_state: st.session_state.live_anomaly = []
 st.markdown("""
 <div class="hero-header">
   <div class="hero-title">AuraFi Expense Intelligence</div>
-  <div class="hero-sub">Multi-Agent AI · Real-Time Analytics · Data Science Portfolio Project</div>
+  <div class="hero-sub">Multi-Agent AI · Real-Time Analytics · Autonomous Wealth Intelligence</div>
   <div style="margin-top:0.8rem">
     <span style="color:#64748B;font-size:0.8rem;font-weight:600;letter-spacing:1px">PROFESSIONAL DATA SCIENCE ECOSYSTEM</span>
   </div>
