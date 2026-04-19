@@ -303,7 +303,7 @@ def plotly_fig(fig: go.Figure) -> go.Figure:
     return fig
 
 def phase_tag(n: int, label: str) -> str:
-    return f'<span class="phase-badge">Phase {n}</span>{label}'
+    return label
 
 def insight_html(ins) -> str:
     cls_map = {"critical":"insight-critical","warning":"insight-warning","positive":"insight-positive","info":"insight-info"}
@@ -417,10 +417,7 @@ st.markdown("""
   <div class="hero-title">AuraFi Expense Intelligence</div>
   <div class="hero-sub">Multi-Agent AI · Real-Time Analytics · Data Science Portfolio Project</div>
   <div style="margin-top:0.8rem">
-    <span class="hero-badge">PHASE 1–8</span>
-    <span class="hero-badge">MULTI-AGENT AI</span>
-    <span class="hero-badge">FINTECH GRADE</span>
-    <span class="hero-badge">PLACEMENT READY</span>
+    <span style="color:#64748B;font-size:0.8rem;font-weight:600;letter-spacing:1px">PROFESSIONAL DATA SCIENCE ECOSYSTEM</span>
   </div>
 </div>
 """, unsafe_allow_html=True)
@@ -533,11 +530,10 @@ with tab1:
         fig_pie.add_annotation(text=f"₹{eda['total_spend']:,.0f}<br><span style='font-size:11px'>Total</span>",
                                 font=dict(size=16, color="#F1F5F9", family="Space Grotesk"),
                                 showarrow=False, x=0.5, y=0.5)
-        fig_pie.update_layout(**PLOTLY_LAYOUT,
+        fig_pie.update_layout(**{**PLOTLY_LAYOUT, "legend": dict(orientation="v", x=1, y=0.5)},
             title="🥧 Spend Distribution",
             title_font=dict(size=16, color="#F1F5F9", family="Space Grotesk"),
             height=360, showlegend=True,
-            legend=dict(orientation="v", x=1, y=0.5),
         )
         st.plotly_chart(fig_pie, use_container_width=True)
 

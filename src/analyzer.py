@@ -172,18 +172,15 @@ class ExpenseAnalyzer:
         for cat, grp in monthly_cat.groupby("category"):
             if len(grp) >= 2:
                 slope = np.polyfit(range(len(grp)), grp["amount"].values, 1)[0]
-                if slope > 0:
-                    results.append({
-                        "Category"      : cat,
-                        "Monthly Slope ₹": round(slope, 2),
-                        "Trend"         : "📈 Rising",
-                    })
-                else:
-                    results.append({
-                        "Category"      : cat,
-                        "Monthly Slope ₹": round(slope, 2),
-                        "Trend"         : "📉 Falling",
-                    })
+                results.append({
+                    "Category"      : cat,
+                    "Monthly Slope ₹": round(slope, 2),
+                    "Trend"         : "📈 Rising" if slope > 0 else "📉 Falling",
+                })
+        
+        if not results:
+            return pd.DataFrame(columns=["Category", "Monthly Slope ₹", "Trend"])
+        
         return pd.DataFrame(results).sort_values("Monthly Slope ₹", ascending=False).reset_index(drop=True)
 
     def budget_performance(self, budgets: Dict[str, float]) -> pd.DataFrame:
