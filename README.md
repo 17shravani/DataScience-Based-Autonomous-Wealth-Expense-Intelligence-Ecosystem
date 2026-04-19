@@ -46,45 +46,7 @@ The system automatically generates high-fidelity visualizations. View the full g
 ![Summary Dashboard](outputs/0_summary_dashboard.png)
 *Example: The Holistic Financial Intelligence Dashboard*
 
----
 
-## 📂 Repository Structure
-
-```text
-├── app.py                     # 💎 AuraFi Premium Dashboard (Main Entry)
-├── main.py                    # ⚙️ CLI Analysis Pipeline (End-to-End)
-├── src/                       # 🧠 Core Intelligence Logic
-│   ├── cleaner.py             # Data Normalization Engine
-│   ├── analyzer.py            # Feature Engineering & Stats
-│   ├── visualizer.py          # High-Fidelity Charting Engine
-│   └── insights.py            # Prescriptive Advice Engine
-├── ai_agents.py               # 🤖 Multi-Agent AI System
-├── data_generator.py          # 🎲 Non-Linear Transaction Simulator
-├── data/                      # 💾 Raw and Cleaned Datasets
-├── outputs/                   # 📊 Generated Reports & Visuals
-└── requirements.txt           # 📦 Dependency Manifest
-```
-
----
-
-## ⚡ Quick Start
-
-### 1. Installation
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Run the Full Analysis Pipeline
-Generate fresh data, clean it, train the ML model, and export reports:
-```bash
-python main.py
-```
-
-### 3. Launch the Premium Dashboard
-Experience AuraFi’s interactive glassmorphic UI:
-```bash
-python -m streamlit run app.py
-```
 
 ---
 
