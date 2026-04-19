@@ -454,7 +454,7 @@ az = ExpenseAnalyzer(df)
 eda = az.eda_summary()
 monthly = az.monthly_trends()
 cat_tot = az.category_totals()
-health  = wellness.calculate_score(df.rename(columns={"amount":"Amount","category":"Category"}))
+health  = wellness.calculate_score(df.rename(columns={"amount":"Amount","category":"Category"}).assign(Type="Expense"))
 co2     = green.analyze_total_footprint(df) if "carbon_score" in df.columns else round(df["amount"].sum() * 0.3, 1)
 forecast= brain.forecast_end_of_month_expenses(df.rename(columns={"amount":"Amount","category":"Category","date":"Date","month":"YearMonth"}).assign(Type="Expense")) if "amount" in df.columns else 0
 
